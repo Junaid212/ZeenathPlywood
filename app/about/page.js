@@ -26,7 +26,7 @@ export default function About() {
    
     return (
         <>
-        <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="About Us">
+        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="About Us">
         {/*About One Start */}
         <section className="about-one about-seven">
             <div className="container">
@@ -158,7 +158,7 @@ export default function About() {
         {/* Counter Two End */}
 
         {/*Contact Two Start */}
-        <section className="contact-two contact-four">
+        {/* <section className="contact-two contact-four">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-lg-6">
@@ -224,11 +224,11 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*Contact Two End */}
 
         {/* Success One Start */}
-        <section className="success-one">
+        <section className="success-one" style={{marginTop:'150px'}}>
             <div className="success-one__shape-1">
                 <img src="assets/images/shapes/success-one-shape-1.png" alt=""/>
             </div>

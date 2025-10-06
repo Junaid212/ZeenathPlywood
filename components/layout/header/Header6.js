@@ -12,7 +12,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, handle
                         <div className="main-menu-six__wrapper-inner">
                             <div className="main-menu-six__left">
                                 <div className="main-menu-six__logo">
-                                    <Link href="/"><img src="assets/images/resources/logo-3.png" alt=""/></Link>
+                                    <Link href="/"><img src="assets/images/resources/zeenath-logo.png" alt=""/></Link>
                                 </div>
                             </div>
                             <div className="main-menu-six__main-menu-box">

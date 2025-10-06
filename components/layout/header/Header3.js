@@ -12,7 +12,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu  }) {
                         <div className="main-menu-three__wrapper-inner">
                             <div className="main-menu-three__left">
                                 <div className="main-menu-three__logo">
-                                    <Link href="/"><img src="assets/images/resources/logo-1.png" alt="" /></Link>
+                                    <Link href="/"><img src="assets/images/resources/zeenath-logo.png" alt="" /></Link>
                                 </div>
                             </div>
                             <div className="main-menu-three__main-menu-box">
@@ -21,7 +21,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu  }) {
                             </div>
                             <div className="main-menu-three__right">
                                 <div className="main-menu-three__btn-box">
-                                    <Link href="contact" className="main-menu-three__btn thm-btn">Get A quato</Link>
+                                    <Link href="contact" className="main-menu-three__btn thm-btn">Get A Quote</Link>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu  }) {
                             <div className="main-menu-three__wrapper-inner">
                                 <div className="main-menu-three__left">
                                     <div className="main-menu-three__logo">
-                                        <Link href="/"><img src="assets/images/resources/logo-1.png" alt="" /></Link>
+                                        <Link href="/"><img src="assets/images/resources/zeenath-logo.png" alt="" /></Link>
                                     </div>
                                 </div>
                                 <div className="main-menu-three__main-menu-box">
@@ -47,7 +47,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu  }) {
                                 </div>
                                 <div className="main-menu-three__right">
                                     <div className="main-menu-three__btn-box">
-                                        <Link href="contact" className="main-menu-three__btn thm-btn">Get A quato</Link>
+                                        <Link href="contact" className="main-menu-three__btn thm-btn">Get A Quote</Link>
                                     </div>
                                 </div>
                             </div>

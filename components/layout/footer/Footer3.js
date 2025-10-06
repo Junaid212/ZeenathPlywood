@@ -15,7 +15,7 @@ export default function Footer3() {
                             <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                 <div className="footer-widget-three__column footer-widget-three__about">
                                     <div className="footer-widget-three__logo">
-                                        <Link href="/"><img src="assets/images/resources/footer-logo-2.png"
+                                        <Link href="/"><img src="assets/images/resources/z-logo-w.png"
                                                 alt=""/></Link>
                                     </div>
                                     <p className="footer-widget-three__about-text">It is a long established fact that a

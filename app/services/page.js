@@ -1,12 +1,15 @@
 'use client'
 import Layout from "@/components/layout/Layout"
+import Work from "@/components/sections/home5/Work"
 import Link from "next/link"
 export default function Home() {
     
     return (
         <>
-        <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="Services">
+        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Services">
         {/*Services Page Start*/}
+         <Work />
+
         <section className="services-page">
             <div className="container">
                 <div className="row">
@@ -130,7 +133,6 @@ export default function Home() {
             </div>
         </section>
         {/*Services Page End*/}
-
         {/*CTA One Start*/}
         <section className="cta-one">
             <div className="container">
@@ -154,6 +156,7 @@ export default function Home() {
             </div>
         </section>
         {/*CTA One End*/}
+       
             
             </Layout>
         </>
