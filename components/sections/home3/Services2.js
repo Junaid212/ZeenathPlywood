@@ -16,7 +16,7 @@ export default function Services2() {
                         <div className="section-title__tagline-box">
                             <span className="section-title__tagline">Best Service</span>
                         </div>
-                        <h2 className="section-title__title">Building Dreams Brick<br/> by Strenth</h2>
+                        <h2 className="section-title__title">Why Choose Us</h2>
                     </div>
                     <div className="services-six__btn-box">
                         <Link href="services" className="services-six__btn thm-btn">Read more<span
@@ -34,10 +34,9 @@ export default function Services2() {
                                     </div>
                                 </div>
                                 <div className="services-six__content">
-                                    <h3 className="services-six__title"><Link href="service-details">Elite Structures</Link>
+                                    <h3 className="services-six__title"><Link href="service-details">Wide Range</Link>
                                     </h3>
-                                    <p className="services-six__text">Et purus duis sollicit udin pur<br/> us duis
-                                        sollicitudin
+                                    <p className="services-six__text">We offer many options to suit every need
                                     </p>
                                     <div className="services-six__read-more">
                                         <Link href="service-details">Read more<span
@@ -56,10 +55,9 @@ export default function Services2() {
                                     </div>
                                 </div>
                                 <div className="services-six__content">
-                                    <h3 className="services-six__title"><Link href="service-details">Pixel Craft</Link>
+                                    <h3 className="services-six__title"><Link href="service-details"> Built to Last</Link>
                                     </h3>
-                                    <p className="services-six__text">Et purus duis sollicit udin pur<br/> us duis
-                                        sollicitudin
+                                    <p className="services-six__text">Our products are strong, durable, and reliable.
                                     </p>
                                     <div className="services-six__read-more">
                                         <Link href="service-details">Read more<span
@@ -78,11 +76,9 @@ export default function Services2() {
                                     </div>
                                 </div>
                                 <div className="services-six__content">
-                                    <h3 className="services-six__title"><Link href="service-details">Pro Build
-                                            Innovations</Link>
+                                    <h3 className="services-six__title"><Link href="service-details">Friendly Support</Link>
                                     </h3>
-                                    <p className="services-six__text">Et purus duis sollicit udin pur<br/> us duis
-                                        sollicitudin
+                                    <p className="services-six__text">We help our customers at every step.
                                     </p>
                                     <div className="services-six__read-more">
                                         <Link href="service-details">Read more<span

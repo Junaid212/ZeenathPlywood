@@ -63,10 +63,8 @@ export default function Banner() {
                             <div className="row">
                                 <div className="col-xl-12">
                                     <div className="main-slider-three__content">
-                                        <h2 className="main-slider-three__title">Engineering The <br/> Extraordinary </h2>
-                                        <p className="main-slider-three__text">Et purus duis sollicitudin dignissim
-                                            habitant. Egestas nulla quis <br/> venenatis cras sed eu massa eu faucibus.
-                                            Urna fusce apretium.
+                                        <h2 className="main-slider-three__title">Crafting Space <br/> Since 1996 </h2>
+                                        <p className="main-slider-three__text">Premium Plywood, Laminates & Veneers <br/> Designed for Quality, Built for Durability.
                                         </p>
                                         <div className="main-slider-three__btn-boxes">
                                             <div className="main-slider-three__btn-box-1">
@@ -108,10 +106,8 @@ export default function Banner() {
                             <div className="row">
                                 <div className="col-xl-12">
                                     <div className="main-slider-three__content">
-                                        <h2 className="main-slider-three__title">Engineering The <br/> Extraordinary </h2>
-                                        <p className="main-slider-three__text">Et purus duis sollicitudin dignissim
-                                            habitant. Egestas nulla quis <br/> venenatis cras sed eu massa eu faucibus.
-                                            Urna fusce apretium.
+                                        <h2 className="main-slider-three__title">Crafting Space <br/> Since 1996 </h2>
+                                        <p className="main-slider-three__text">Premium Plywood, Laminates & Veneers <br/> Designed for Quality, Built for Durability.
                                         </p>
                                         <div className="main-slider-three__btn-boxes">
                                             <div className="main-slider-three__btn-box-1">
@@ -153,10 +149,8 @@ export default function Banner() {
                             <div className="row">
                                 <div className="col-xl-12">
                                     <div className="main-slider-three__content">
-                                        <h2 className="main-slider-three__title">Engineering The <br/> Extraordinary </h2>
-                                        <p className="main-slider-three__text">Et purus duis sollicitudin dignissim
-                                            habitant. Egestas nulla quis <br/> venenatis cras sed eu massa eu faucibus.
-                                            Urna fusce apretium.
+                                        <h2 className="main-slider-three__title">Crafting Space <br/> Since 1996 </h2>
+                                        <p className="main-slider-three__text">Premium Plywood, Laminates & Veneers <br/> Designed for Quality, Built for Durability.
                                         </p>
                                         <div className="main-slider-three__btn-boxes">
                                             <div className="main-slider-three__btn-box-1">

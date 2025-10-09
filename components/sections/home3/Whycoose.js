@@ -17,10 +17,11 @@ export default function Whycoose() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">Why Cho0se us </span>
                                 </div>
-                                <h2 className="section-title__title">Raising the Standard<br/> in Construction</h2>
+                                <h2 className="section-title__title">Your Partner in <br/> Interiors</h2>
                             </div>
-                            <p className="why-choose-three__text">Et purus duis sollicitudin dignissim habitant. Egestas
-                                nulla quis venenatis cras sed eu massa eu faucibus. Urna fusce aenean tortor pretium.
+                            <p className="why-choose-three__text">Since 1996, we have been providing high-quality plywood, 
+                                laminates, and veneers along with reliable service, helping our customers create beautiful,
+                                 durable, and functional interiors for homes and projects of all sizes.
                             </p>
                             <div className="why-choose-three__btn-box">
                                 <Link href="about" className="why-choose-three__btn thm-btn">Read more<span

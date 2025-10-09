@@ -14,10 +14,10 @@ export default function About2() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">Know About Us</span>
                                 </div>
-                                <h2 className="section-title__title">Building Dreams One<br/> Brick at costruction</h2>
+                                <h2 className="section-title__title"> What Makes Us Different</h2>
                             </div>
-                            <p className="about-four__text">Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                                quis<br/> venenatis cras sed eu massa eu faucibus. Urna fusce ae</p>
+                            <p className="about-four__text">We combine quality products, reliable service,
+                                 and a customer-first approach to deliver interiors that truly stand out.</p>
                             <div className="about-four__btn-box">
                                 <Link href="about" className="about-four__btn thm-btn">Read more<span
                                         className="icon-dabble-arrow-right"></span></Link>
@@ -33,8 +33,9 @@ export default function About2() {
                                         <div className="about-four__icon">
                                             <span className="icon-hook"></span>
                                         </div>
-                                        <h3 className="about-four__title"><Link href="about">Zone Constructions</Link></h3>
-                                        <p className="about-four__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        <h3 className="about-four__title"><Link href="about">Wide Selection</Link></h3>
+                                        <p className="about-four__text">Choose from a variety of plywood, laminates, and veneers
+                                             to suit every style and need
                                         </p>
                                     </div>
                                 </div>
@@ -45,8 +46,8 @@ export default function About2() {
                                         <div className="about-four__icon">
                                             <span className="icon-robotic-arm"></span>
                                         </div>
-                                        <h3 className="about-four__title"><Link href="about">Flow Builders</Link></h3>
-                                        <p className="about-four__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        <h3 className="about-four__title"><Link href="about">Trusted Quality</Link></h3>
+                                        <p className="about-four__text">All our products are strong, durable, and made to last
                                         </p>
                                     </div>
                                 </div>
@@ -57,8 +58,8 @@ export default function About2() {
                                         <div className="about-four__icon">
                                             <span className="icon-crane-4"></span>
                                         </div>
-                                        <h3 className="about-four__title"><Link href="about">Build Constructions</Link></h3>
-                                        <p className="about-four__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        <h3 className="about-four__title"><Link href="about">Helpful Support</Link></h3>
+                                        <p className="about-four__text">We guide and assist our customers through every step of their project
                                         </p>
                                     </div>
                                 </div>
@@ -69,8 +70,8 @@ export default function About2() {
                                         <div className="about-four__icon">
                                             <span className="icon-industry"></span>
                                         </div>
-                                        <h3 className="about-four__title"><Link href="about">Bespoke Build</Link></h3>
-                                        <p className="about-four__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        <h3 className="about-four__title"><Link href="about">Value & Care</Link></h3>
+                                        <p className="about-four__text">We focus on giving the best products and service at fair value
                                         </p>
                                     </div>
                                 </div>

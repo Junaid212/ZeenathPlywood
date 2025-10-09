@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout"
 import CounterUp from "@/components/elements/CounterUp"
 import Link from "next/link"
 import { useState } from 'react'
+import Team from "@/components/sections/home3/Team"
 
 
 export default function About() {
@@ -26,7 +27,7 @@ export default function About() {
    
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="About Us">
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="About Us">
         {/*About One Start */}
         <section className="about-one about-seven">
             <div className="container">
@@ -45,18 +46,18 @@ export default function About() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">ABOUT US</span>
                                 </div>
-                                <h2 className="section-title__title">We are specialized solutions Building</h2>
+                                <h2 className="section-title__title">Leaders in Interior Solutions</h2>
                             </div>
-                            <p className="about-one__text">Content Marketing Solutions: Engage, Inform, and Convert Content
-                                Marketing Solutions: Engage, Inform, and Convert </p>
+                            <p className="about-one__text">Since 1996, Zeenath has been providing high-quality plywood, laminates, and veneers. 
+                                We combine quality products with reliable service to meet every customer’s needs</p>
                             <ul className="about-one__points-list list-unstyled">
                                 <li>
                                     <div className="icon">
                                         <span className="icon-analytics"></span>
                                     </div>
                                     <div className="content">
-                                        <h3><Link href="about">Smart Analytics</Link></h3>
-                                        <p>Content Marketing printing Solutions: Engage, <br/> Inform, and Convert</p>
+                                        <h3><Link href="about">Trusted Quality</Link></h3>
+                                        <p>Our products are strong, durable, and made to last.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -64,8 +65,8 @@ export default function About() {
                                         <span className="icon-prestige"></span>
                                     </div>
                                     <div className="content">
-                                        <h3><Link href="about">Prestige Construction</Link></h3>
-                                        <p>Content Marketing printing Solutions: Engage, <br/> Inform, and Convert</p>
+                                        <h3><Link href="about">Customer Support</Link></h3>
+                                        <p>We guide and help our customers at every step of their project.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -88,10 +89,10 @@ export default function About() {
                         <div className="section-title__tagline-box">
                             <span className="section-title__tagline">Best Roof rapairing</span>
                         </div>
-                        <h2 className="section-title__title">Crafting Structures that a <br/> Stand the Test </h2>
+                        <h2 className="section-title__title">Our Journey in Numbers </h2>
                     </div>
-                    <p className="counter-two__top-text">Dictum ultrices porttitor amet nec sollicit molestie adipiscing
-                        netus. Lorem at ac ut morbi ullamcorper mol lacus. Euismod design by man loren ipsum</p>
+                    <p className="counter-two__top-text">Zeenath has grown by delivering quality products and reliable service.
+                         Here’s a look at what we have achieved over the years.</p>
                 </div>
                 <div className="counter-two__bottom">
                     <div className="row">
@@ -102,10 +103,10 @@ export default function About() {
                                     <span className="icon-settings"></span>
                                 </div>
                                 <div className="counter-two__count count-box">
-                                <CounterUp end={200} />
+                                <CounterUp end={25} />
                                     <span className="counter-two__plus">+</span>
                                 </div>
-                                <p className="counter-two__count-text">Team member</p>
+                                <p className="counter-two__count-text">Years</p>
                             </div>
                         </div>
                         {/* Counter Two Single End */}
@@ -116,10 +117,10 @@ export default function About() {
                                     <span className="icon-paint"></span>
                                 </div>
                                 <div className="counter-two__count count-box">
-                                <CounterUp end={20} />
+                                <CounterUp end={100} />
                                     <span className="counter-two__plus">+</span>
                                 </div>
-                                <p className="counter-two__count-text">Team member</p>
+                                <p className="counter-two__count-text">Products</p>
                             </div>
                         </div>
                         {/* Counter Two Single End */}
@@ -130,10 +131,10 @@ export default function About() {
                                     <span className="icon-mechanic-2"></span>
                                 </div>
                                 <div className="counter-two__count count-box">
-                                <CounterUp end={10} />
-                                    <span className="counter-two__plus">k+</span>
+                                <CounterUp end={500} />
+                                    <span className="counter-two__plus">+</span>
                                 </div>
-                                <p className="counter-two__count-text">Complete project</p>
+                                <p className="counter-two__count-text">Projects</p>
                             </div>
                         </div>
                         {/* Counter Two Single End */}
@@ -144,10 +145,10 @@ export default function About() {
                                     <span className="icon-analytics"></span>
                                 </div>
                                 <div className="counter-two__count count-box">
-                                <CounterUp end={900} />
+                                <CounterUp end={1000} />
                                     <span className="counter-two__plus">+</span>
                                 </div>
-                                <p className="counter-two__count-text">Client review</p>
+                                <p className="counter-two__count-text">Happy Clients</p>
                             </div>
                         </div>
                         {/* Counter Two Single End */}
@@ -263,26 +264,23 @@ export default function About() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">Best Services</span>
                                 </div>
-                                <h2 className="section-title__title">Create Innovative sustain
-                                    Place in the.</h2>
+                                <h2 className="section-title__title"> Committed To Your Success</h2>
                             </div>
-                            <p className="success-one__text">Lorem ipsum dolor sit amet consectetur adipiscing elit sociis
-                                tempus magna vel, duis tincidunt fusce aenean lacus integer velit phasellus imperdiet
-                                the a senectus, vestibulum ridiculus es</p>
+                            <p className="success-one__text">At Zeenath, we understand that choosing the right plywood,
+                                 laminates, and veneers can be confusing.
+                                 We’re here to make it easier for you. Find answers to the most common questions our customers ask.</p>
                             <ul className="list-unstyled success-one__points">
                                 <li>
                                     <div className="success-one__points-icon">
                                         <span className="icon-constructo-pro"></span>
                                     </div>
-                                    <p className="success-one__points-text"><Link href="service-details">Master Craft
-                                            Construction</Link></p>
+                                    <p className="success-one__points-text"><Link href="service-details">Quality Products</Link></p>
                                 </li>
                                 <li>
                                     <div className="success-one__points-icon">
                                         <span className="icon-proconstruct"></span>
                                     </div>
-                                    <p className="success-one__points-text"><Link href="service-details">Quality
-                                            Construction Co</Link></p>
+                                    <p className="success-one__points-text"><Link href="service-details">Customer Support</Link></p>
                                 </li>
                             </ul>
                             <div className="success-one__btn-box">
@@ -306,11 +304,10 @@ export default function About() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">SOME fAQS</span>
                                 </div>
-                                <h2 className="section-title__title">Creating Structures that <br/> Stand of Time </h2>
+                                <h2 className="section-title__title">Got Questions? We’ve Got Answers </h2>
                             </div>
-                            <p className="faq-one__text">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis
-                                venenatis cras sed eu massa eu faucibus. Urna fusce aenean tortor pretium. Et purus duis
-                                sollicitudin dignissim habitant. Egestas </p>
+                            <p className="faq-one__text">At Zeenath, we understand that choosing the right plywood, laminates, and veneers can be confusing.
+                                 We’re here to make it easier for you. Find answers to the most common questions our customers ask.</p>
                             <div className="faq-one__btn-box">
                                 <Link href="#" className="faq-one__btn thm-btn">Learn more<span
                                         className="icon-dabble-arrow-right"></span></Link>
@@ -322,53 +319,41 @@ export default function About() {
                             <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                 <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
                                     <div className="accrodion-title">
-                                        <h4>What is construction?</h4>
+                                        <h4>What products do you offer?</h4>
                                     </div>
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>Et purus duis sollicitudin dignissim ha. Egest nulla quis venenatis cras
-                                                sed
-                                                eu massa eu faucibus. Urna fusce aenea tortor pretium Et purus duis
-                                                sollicitudin dignissim habitant</p>
+                                            <p>We provide a wide range of plywood, laminates, and veneers for different interior needs.</p>
                                         </div>{/* /.inner */}
                                     </div>
                                 </div>
                                 <div className={isActive.key == 2 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(2)}>
                                     <div className="accrodion-title">
-                                        <h4>How long does project typically take?</h4>
+                                        <h4>Do you supply in bulk?</h4>
                                     </div>
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>Et purus duis sollicitudin dignissim ha. Egest nulla quis venenatis cras
-                                                sed
-                                                eu massa eu faucibus. Urna fusce aenea tortor pretium Et purus duis
-                                                sollicitudin dignissim habitant</p>
+                                            <p>Yes, we are manufacturers and wholesalers, and can supply both small and large quantities</p>
                                         </div>{/* /.inner */}
                                     </div>
                                 </div>
                                 <div className={isActive.key == 3 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(3)}>
                                     <div className="accrodion-title">
-                                        <h4>What different of construction projects?</h4>
+                                        <h4>How long has Zeenath been in business?</h4>
                                     </div>
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>Et purus duis sollicitudin dignissim ha. Egest nulla quis venenatis cras
-                                                sed
-                                                eu massa eu faucibus. Urna fusce aenea tortor pretium Et purus duis
-                                                sollicitudin dignissim habitant</p>
+                                            <p>We have been serving customers since 1996, with over 25 years of experience.</p>
                                         </div>{/* /.inner */}
                                     </div>
                                 </div>
                                 <div className={isActive.key == 4 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(4)}>
                                     <div className="accrodion-title">
-                                        <h4>What is the role of a construction manager?</h4>
+                                        <h4>Can I get guidance for my project?</h4>
                                     </div>
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>Et purus duis sollicitudin dignissim ha. Egest nulla quis venenatis cras
-                                                sed
-                                                eu massa eu faucibus. Urna fusce aenea tortor pretium Et purus duis
-                                                sollicitudin dignissim habitant</p>
+                                            <p>Yes, our team is happy to help you choose the right products for your interiors.</p>
                                         </div>{/* /.inner */}
                                     </div>
                                 </div>
@@ -379,18 +364,18 @@ export default function About() {
             </div>
         </section>
         {/*FAQ One End*/}
-
+        <Team />
         {/*CTA One Start*/}
         <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
-                        <img src="assets/images/shapes/cta-one-shape-1.png" alt=""/>
+                        <img src="assets/images/shapes/ply.png" alt=""/>
                     </div>
                     <div className="cta-one__img">
-                        <img src="assets/images/resources/cta-one-img.png" alt=""/>
+                        <img src="assets/images/resources/ply.png" alt=""/>
                     </div>
-                    <h3 className="cta-one__title">Craftin digital experiences<br/> With that inspire</h3>
+                    <h3 className="cta-one__title">Strong Products,<br/> Lasting Interior Solutions</h3>
                     <div className="cta-one__from-box">
                         <form className="cta-one__form">
                             <div className="cta-one__input-box">

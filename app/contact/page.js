@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-    <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Contact">
+    <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Contact">
         
         {/*Contact Page Start*/}
         <section className="contact-page">
@@ -20,8 +20,7 @@ export default function Home() {
                     </div>
                     <div className="col-xl-6 col-lg-6">
                         <div className="contact-page__right">
-                            <h3 className="contact-page__title">Let us know about your
-                                next project</h3>
+                            <h3 className="contact-page__title">Get In Touch With Us</h3>
                             <ul className="contact-page__contact-list list-unstyled">
                                 <li>
                                     <div className="icon">
@@ -29,7 +28,7 @@ export default function Home() {
                                     </div>
                                     <div className="content">
                                         <h3>Location</h3>
-                                        <p>Dhaka 102, utl 1216, road 45 house of<br/> street</p>
+                                        <p>Polymer House, Nellikai Road, Mangalore</p>
                                     </div>
                                 </li>
                                 <li>
@@ -38,7 +37,7 @@ export default function Home() {
                                     </div>
                                     <div className="content">
                                         <h3>Phone number</h3>
-                                        <p><Link href="tel:01400823544">01400823544</Link></p>
+                                        <p><Link href="tel:+91 96 06 260928 ">+91 96 06 260928 </Link></p>
                                         <p><Link href="tel:1234000000">1234 - 000 - 000 </Link></p>
                                     </div>
                                 </li>
@@ -48,7 +47,7 @@ export default function Home() {
                                     </div>
                                     <div className="content">
                                         <h3>Email</h3>
-                                        <p><Link href="mailto:info@exampleyourmail.com">info@exampleyourmail.com</Link></p>
+                                        <p><Link href="mailto:zeenathplywood@gmail.com">zeenathplywood@gmail.com</Link></p>
                                     </div>
                                 </li>
                             </ul>

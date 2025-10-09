@@ -6,7 +6,7 @@ export default function Home() {
     
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Services">
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Services">
         {/*Services Page Start*/}
          <Work />
 

@@ -9,9 +9,9 @@ export default function Recent() {
             <div className="container">
                 <div className="section-title text-center">
                     <div className="section-title__tagline-box">
-                        <span className="section-title__tagline">recent project</span>
+                        <span className="section-title__tagline"></span>
                     </div>
-                    <h2 className="section-title__title">Where Quality Meets<br/> Construction</h2>
+                    <h2 className="section-title__title">Our Advantages</h2>
                 </div>
                 <ul className="recent-project__list-box list-unstyled">
                     <li className="wow fadeInUp" data-wow-delay="100ms">
@@ -23,8 +23,8 @@ export default function Recent() {
                                 <span className="icon-architect"></span>
                             </div>
                             <div className="content">
-                                <h3><Link href="project-details">Tier Developments</Link></h3>
-                                <p>Et purus duis sollicit udin pur Et purus duis<br/> sollicit udin pur </p>
+                                <h3><Link href="project-details">Trusted Since 1996</Link></h3>
+                                <p>Over 25 years of experience in the industry </p>
                             </div>
                         </div>
                         <div className="recent-project__btn-box">
@@ -41,8 +41,8 @@ export default function Recent() {
                                 <span className="icon-blueprint-2"></span>
                             </div>
                             <div className="content">
-                                <h3><Link href="project-details">Infinity Spaces</Link></h3>
-                                <p>Et purus duis sollicit udin pur Et purus duis<br/> sollicit udin pur </p>
+                                <h3><Link href="project-details">Quality Products</Link></h3>
+                                <p>Durable plywood, laminates, and veneers you can rely on </p>
                             </div>
                         </div>
                         <div className="recent-project__btn-box">
@@ -59,8 +59,8 @@ export default function Recent() {
                                 <span className="icon-blueprint-1"></span>
                             </div>
                             <div className="content">
-                                <h3><Link href="project-details">Luxe Living Creations</Link></h3>
-                                <p>Et purus duis sollicit udin pur Et purus duis<br/> sollicit udin pur </p>
+                                <h3><Link href="project-details">Customer Focused</Link></h3>
+                                <p>We support and guide our customers at every step</p>
                             </div>
                         </div>
                         <div className="recent-project__btn-box">

@@ -4936,6 +4936,7 @@ ul {
 .faq-one__right {
   position: relative;
   display: block;
+  margin-bottom: 40px;
 }
 
 .faq-one__right .faq-one-accrodion .accrodion {
@@ -9160,7 +9161,7 @@ ul {
 .team-three {
   position: relative;
   display: block;
-  padding: 237px 0 90px;
+  padding: 90px 0 120px;
   margin-top: -138px;
   z-index: 1;
 }
@@ -9170,7 +9171,7 @@ ul {
   top: 0;
   left: 0;
   right: 0;
-  height: 687px;
+  height: 600px;
   background-color: var(--elitecons-black);
   z-index: -1;
 }

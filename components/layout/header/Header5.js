@@ -12,7 +12,7 @@ export default function Header5({ scroll, handlePopup, handleMobileMenu }) {
                         <div className="main-menu-five__wrapper-inner">
                             <div className="main-menu-five__left">
                                 <div className="main-menu-five__logo">
-                                    <Link href="/"><img src="assets/images/resources/logo-1.png" alt=""/></Link>
+                                    <Link href="/"><img src="assets/images/resources/zeenath-logo.png" alt=""/></Link>
                                 </div>
                             </div>
                             <div className="main-menu-five__main-menu-box">
@@ -20,9 +20,9 @@ export default function Header5({ scroll, handlePopup, handleMobileMenu }) {
                                 <Menu/>
                             </div>
                             <div className="main-menu-five__right">
-                                <div className="main-menu-five__search-box">
+                                {/* <div className="main-menu-five__search-box">
                                     <Link href="#" className="main-menu-five__search search-toggler icon-search" onClick={handlePopup}></Link>
-                                </div>
+                                </div> */}
                                 <div className="main-menu-five__btn-box">
                                     <Link href="contact" className="main-menu-five__btn thm-btn">Get a quote<span
                                             className="icon-plus"></span></Link>
@@ -42,7 +42,7 @@ export default function Header5({ scroll, handlePopup, handleMobileMenu }) {
                             <div className="main-menu-five__wrapper-inner">
                                 <div className="main-menu-five__left">
                                     <div className="main-menu-five__logo">
-                                        <Link href="/"><img src="assets/images/resources/logo-1.png" alt=""/></Link>
+                                        <Link href="/"><img src="assets/images/resources/zeenath-logo.png" alt=""/></Link>
                                     </div>
                                 </div>
                                 <div className="main-menu-five__main-menu-box">
@@ -50,9 +50,9 @@ export default function Header5({ scroll, handlePopup, handleMobileMenu }) {
                                     <Menu/>
                                 </div>
                                 <div className="main-menu-five__right">
-                                    <div className="main-menu-five__search-box">
+                                    {/* <div className="main-menu-five__search-box">
                                         <Link href="#" className="main-menu-five__search search-toggler icon-search"></Link>
-                                    </div>
+                                    </div> */}
                                     <div className="main-menu-five__btn-box">
                                         <Link href="contact" className="main-menu-five__btn thm-btn">Get a quote<span
                                                 className="icon-plus"></span></Link>

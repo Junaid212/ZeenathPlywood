@@ -9,7 +9,7 @@ export default function Cta() {
             <div className="cta-two__wrap">
                 <div className="container">
                     <div className="cta-two__inner">
-                        <h3 className="cta-two__title">Need any help?Contract</h3>
+                        <h3 className="cta-two__title">Get Started on Your Project<br/> Today</h3>
                         <div className="cta-two__call-box">
                             <div className="icon">
                                 <span className="icon-call"></span>

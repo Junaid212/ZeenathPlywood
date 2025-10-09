@@ -23,20 +23,19 @@ export default function About() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">About Us</span>
                                 </div>
-                                <h2 className="section-title__title">Crafting Foundations for Better Tomorrow</h2>
+                                <h2 className="section-title__title">Crafting Interiors with Excellence</h2>
                             </div>
-                            <p className="about-three__text">Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                                quis venenatis cras sed eu massa eu faucibus. Urna fusce aenean tortor pretium.</p>
+                            <p className="about-three__text">For over 25 years, we have been providing high-quality
+                                 products and solutions that help create beautiful and durable interiors</p>
                             <ul className="about-three__points list-unstyled">
                                 <li>
                                     <div className="icon">
                                         <span className="icon-check-3"></span>
                                     </div>
                                     <div className="content">
-                                        <h3>Superior Synergy Construction</h3>
-                                        <p>Et purus duis sollicit udin pur us duis sollicitudin Et purus<br/> duis
-                                            sollicit
-                                            udin pur us duis sollicitudin</p>
+                                        <h3> Experience You Can Trust</h3>
+                                        <p>Since 1996, we have been serving our clients with knowledge and skill,
+                                             offering plywood, laminates, and veneers that meet every need.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -44,10 +43,9 @@ export default function About() {
                                         <span className="icon-check-3"></span>
                                     </div>
                                     <div className="content">
-                                        <h3>Infinite Innovations Builders</h3>
-                                        <p>Et purus duis sollicit udin pur us duis sollicitudin Et purus<br/> duis
-                                            sollicit
-                                            udin pur us duis sollicitudin</p>
+                                        <h3>Commitment to Quality</h3>
+                                        <p>We make sure every product we offer is strong, long-lasting, 
+                                            and designed to give the best results for any project.</p>
                                     </div>
                                 </li>
                             </ul>

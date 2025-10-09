@@ -18,8 +18,8 @@ export default function Footer3() {
                                         <Link href="/"><img src="assets/images/resources/z-logo-w.png"
                                                 alt=""/></Link>
                                     </div>
-                                    <p className="footer-widget-three__about-text">It is a long established fact that a
-                                        reader will be distracted</p>
+                                    <p className="footer-widget-three__about-text"> Bring Your Interiors to Life – Explore our quality plywood,
+                                         laminates, and veneers to create beautiful and lasting spaces</p>
                                     <form className="footer-widget-three__about-form mc-form">
                                         <div className="footer-widget-three__about-form-input-box">
                                             <input type="email" placeholder="Your mail address" name="EMAIL"/>

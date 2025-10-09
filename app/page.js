@@ -19,15 +19,17 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={3}>
+            <Layout headerStyle={5} footerStyle={3}>
                 <Banner />
                 <Services />
                 <About />
+                
                 <Services2 />
+                <Counter />
                 <Recent />
                 <Whycoose />
-                <Counter />
-                <Project />
+                {/* <Counter /> */}
+                {/* <Project /> */}
                 {/* <Contact /> */}
                 {/* <Testimonial /> */}
                 <About2 />

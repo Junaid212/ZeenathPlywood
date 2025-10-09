@@ -6,16 +6,16 @@ export default function Team() {
         {/*Team Three Start */}
         <section className="team-three">
             <div className="team-three__bg-box">
-                <div className="team-three__bg-shape">
-                    <img src="assets/images/shapes/team-three-shape-1.png" alt=""/>
+                <div className="team-three__bg-shape" >
+                    <img src="assets/images/shapes/team-three-shape-1.png" alt="" />
                 </div>
             </div>
             <div className="container">
-                <div className="section-title text-center">
+                <div className="section-title text-center" >
                     <div className="section-title__tagline-box">
                         <span className="section-title__tagline">Our Team</span>
                     </div>
-                    <h2 className="section-title__title">Building Strong Foundations<br/> Building Stronger Futures</h2>
+                    <h2 className="section-title__title">Our Experts at Work</h2>
                 </div>
                 <div className="row">
                     {/*Team Three Single Start*/}

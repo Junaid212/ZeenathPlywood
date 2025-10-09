@@ -16,8 +16,7 @@ export default function Video() {
                     <div className="video-one__bg"
                         style={{ backgroundImage: 'url(assets/images/backgrounds/video-one-bg.jpg' }} ></div>
                     <div className="video-one__content">
-                        <h3 className="video-one__title">Create Innovative sustain
-                            <br/> Place in the</h3>
+                        <h3 className="video-one__title">Design. Durability. Delivered.</h3>
                         <div className="video-one__video-link">
                             <a onClick={() => setOpen(true)} className="video-popup">
                                 <div className="video-one__video-icon">
