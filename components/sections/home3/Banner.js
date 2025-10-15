@@ -172,14 +172,14 @@ export default function Banner() {
 
 
                 {/* If we need navigation buttons */}
-                <div className="main-slider-three__nav">
+                {/* <div className="main-slider-three__nav">
                     <div className="swiper-button-prev h1p" id="main-slider__swiper-button-next">
                         <i className="icon-arrow-left"></i>
                     </div>
                     <div className="swiper-button-next h1n" id="main-slider__swiper-button-prev">
                         <i className="icon-arrow-right"></i>
                     </div>
-                </div>
+                </div> */}
             </Swiper>
         </section>
         {/*Main Slider Three End*/}

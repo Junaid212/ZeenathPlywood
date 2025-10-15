@@ -8,7 +8,7 @@ export default function Recent() {
         <section className="recent-project">
             <div className="container">
                 <div className="section-title text-center">
-                    <div className="section-title__tagline-box">
+                    <div className="section-title__tagline-box" style={{marginTop:'170px'}}>
                         <span className="section-title__tagline"></span>
                     </div>
                     <h2 className="section-title__title">Our Advantages</h2>

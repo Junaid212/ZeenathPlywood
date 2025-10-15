@@ -20,7 +20,7 @@ export default function About() {
                     <div className="col-xl-6">
                         <div className="about-three__right">
                             <div className="section-title text-left">
-                                <div className="section-title__tagline-box">
+                                <div className="section-title__tagline-box"style={{marginTop:'80px'}}>
                                     <span className="section-title__tagline">About Us</span>
                                 </div>
                                 <h2 className="section-title__title">Crafting Interiors with Excellence</h2>

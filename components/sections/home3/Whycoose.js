@@ -14,7 +14,7 @@ export default function Whycoose() {
                     <div className="col-xl-6 col-lg-7">
                         <div className="why-choose-three__left">
                             <div className="section-title text-left">
-                                <div className="section-title__tagline-box">
+                                <div className="section-title__tagline-box" style={{marginTop:'80px'}}>
                                     <span className="section-title__tagline">Why Cho0se us </span>
                                 </div>
                                 <h2 className="section-title__title">Your Partner in <br/> Interiors</h2>

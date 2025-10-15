@@ -11,7 +11,7 @@ export default function About2() {
                     <div className="col-xl-6">
                         <div className="about-four__left">
                             <div className="section-title text-left">
-                                <div className="section-title__tagline-box">
+                                <div className="section-title__tagline-box" style={{marginTop:'90px'}}>
                                     <span className="section-title__tagline">Know About Us</span>
                                 </div>
                                 <h2 className="section-title__title"> What Makes Us Different</h2>
