@@ -40,12 +40,12 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-2.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Laminates</Link>
+                                <h5 className="services-four__title"><Link href="laminates">Laminates</Link>
                                 </h5>
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="service-details" className="services-four__btn">Read more <span
+                                    <Link href="laminates" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -59,12 +59,12 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-1.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Veneer</Link>
+                                <h5 className="services-four__title"><Link href="veneer">Veneer</Link>
                                 </h5>
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="service-details" className="services-four__btn">Read more <span
+                                    <Link href="veneer" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -78,12 +78,12 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-4.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Hardware</Link>
+                                <h5 className="services-four__title"><Link href="hardware">Hardware</Link>
                                 </h5>
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="service-details" className="services-four__btn">Read more <span
+                                    <Link href="hardware" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -97,13 +97,13 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-5.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Decorative Panels
+                                <h5 className="services-four__title"><Link href="decorative-panels">Decorative Panels
 </Link>
                                 </h5>
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="service-details" className="services-four__btn">Read more <span
+                                    <Link href="decorative-panels" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>

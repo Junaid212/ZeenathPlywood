@@ -13,7 +13,7 @@ export default function About() {
                         <div className="about-three__left">
                             <div className="about-three__img wow slideInLeft" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
-                                <img src="assets/images/resources/about-three-img-1.jpg" alt=""/>
+                                <img src="assets/images/backgrounds/10.png" alt=""/>
                             </div>
                         </div>
                     </div>

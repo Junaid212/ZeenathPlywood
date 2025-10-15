@@ -1,4 +1,3 @@
-
 'use client'
 import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
@@ -8,32 +7,12 @@ const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
     spaceBetween: 0,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
     loop: true,
-
-    // Navigation
-    // navigation: {
-    //     nextEl: '.h1n',
-    //     prevEl: '.h1p',
-    // },
-
-    // Pagination
-    // pagination: {
-    //     el: '.swiper-pagination',
-    //     clickable: true,
-    // },
-
-
-
 }
 
-export default function Gallery() {
+export default function Gallery3() {
     return (
         <>
-        {/*Gallery Two Start */}
         <section className="gallery-two">
             <div className="gallery-two__shape-1"
                 style={{ backgroundImage: 'url(assets/images/shapes/gallery-two-shape-1.png' }} ></div>
@@ -47,11 +26,10 @@ export default function Gallery() {
                 <div className="gallery-two__bottom">
                 <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
                         <div className="swiper-wrapper">
-
-                            {/*Gallery Two Single Start*/}
                             <SwiperSlide>
                             <div className="swiper-slide">
                                 <div className="gallery-two__single-wrap">
+                                    <h2 style={{color:'white'}}>Furniture Fittings</h2>
                                     <div className="row">
                                         <div className="col-xl-3 col-lg-6">
                                             <div className="gallery-two__single">
@@ -62,14 +40,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details"> IS 303 - MR Grade</Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Hinges</Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-1.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -83,14 +55,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 710 - MARINE Grade</Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Sliding & Folding systems</Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-2.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -104,14 +70,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 10701 - BWP Grade </Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Wardrobe accessories</Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-3.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -125,14 +85,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 5509 - FIRE RETARDANT Grade</Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details"> Drawer runners</Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -146,14 +100,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 1659 - Block Board </Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Kitchen accessories </Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -167,14 +115,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 4990 - SHUTTERING Grade </Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Profiles  </Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -188,14 +130,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Chequered & Truck flooring</Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Home Decor Handles</Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -209,14 +145,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Particle board </Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Wardrobe Handles </Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -230,14 +160,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Bamboo sheet</Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Bed Fittings </Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -251,14 +175,84 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">MDF / HDF / HDHMR </Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Sofa legs  </Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 style={{color:'white'}}> Architectural Hardware </h2>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details"> Door hinge </Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details">Door & Window fittings </Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details"> Mortice locking solutions</Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details">Cylinder locks </Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details">Floor springs </Link></h3>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -272,14 +266,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">PVC / WPC / WPC FRAME </Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Glass patch fittings  </Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -293,14 +281,8 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">DOOR </Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Digital locking solutions </Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -314,45 +296,99 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">FINGER JOINT </Link></h3>
-                                                            {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
-                                                                of <br/>the printing and typesetting</p> */}
+                                                                    href="project-details">Pull handles </Link></h3>
                                                         </div>
-                                                        {/* <div className="gallery-two__plus">
-                                                            <Link href="assets/images/gallery/gallery-2-4.jpg"
-                                                                className="img-popup"><span className="icon-plus"></span></Link>
-                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details">Rim Locks  </Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details">Pad Locks  </Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details">Furniture Locks  </Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details">Door hooks  </Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 style={{color:'white'}}>Safety Hardware </h2>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title"><Link
+                                                                    href="project-details">Safe locks </Link></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    
+                                    
                                 </div>
                             </div>
                             </SwiperSlide>
-                            {/*Gallery Two Single End*/}
-                            {/*Gallery Two Single Start*/}
-                           
-                            {/*Gallery Two Single End*/}
-                            {/*Gallery Two Single Start*/}
-                           
-                            {/*Gallery Two Single End*/}
                         </div>
                     </Swiper>
-                    {/* If we need navigation buttons */}
-                    {/* <div className="gallery-two__nav">
-                        <div className="swiper-button-prev1">
-                            <i className="icon-arrow-left"></i>
-                        </div>
-                        <div className="swiper-button-next1">
-                            <i className="icon-arrow-right"></i>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </section>
-        {/*Gallery Two End */}
         </>
     )
 }

@@ -54,7 +54,7 @@ export default function Banner() {
                             </div>
                         </div>
                         <div className="main-slider-three__bg"
-                            style={{ backgroundImage: 'url(assets/images/backgrounds/slider-3-1.jpg' }} ></div>
+                            style={{ backgroundImage: 'url(assets/images/backgrounds/z-banner.png' }} ></div>
                         <div className="main-slider-three__shape-1"></div>
                         <div className="main-slider-three__img">
                             <img src="assets/images/resources/main-slider-three-img-1-1.png" alt=""/>
@@ -97,7 +97,7 @@ export default function Banner() {
                             </div>
                         </div>
                         <div className="main-slider-three__bg"
-                            style={{ backgroundImage: 'url(assets/images/backgrounds/slider-3-2.jpg' }} ></div>
+                            style={{ backgroundImage: 'url(assets/images/backgrounds/6.png' }} ></div>
                         <div className="main-slider-three__shape-1"></div>
                         <div className="main-slider-three__img">
                             <img src="assets/images/resources/main-slider-three-img-1-1.png" alt=""/>
@@ -140,7 +140,7 @@ export default function Banner() {
                             </div>
                         </div>
                         <div className="main-slider-three__bg"
-                            style={{ backgroundImage: 'url(assets/images/backgrounds/slider-3-3.jpg' }} ></div>
+                            style={{ backgroundImage: 'url(assets/images/backgrounds/8.png' }} ></div>
                         <div className="main-slider-three__shape-1"></div>
                         <div className="main-slider-three__img">
                             <img src="assets/images/resources/main-slider-three-img-1-1.png" alt=""/>

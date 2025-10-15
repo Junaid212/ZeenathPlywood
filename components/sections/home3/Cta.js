@@ -5,7 +5,7 @@ export default function Cta() {
         <>
         {/*CTA Two Start*/}
         <section className="cta-two">
-            <div className="cta-two__bg" style={{ backgroundImage: 'url(assets/images/backgrounds/cta-two-bg.png' }} ></div>
+            <div className="cta-two__bg" style={{ backgroundImage: 'url(assets/images/backgrounds/15.png' }} ></div>
             <div className="cta-two__wrap">
                 <div className="container">
                     <div className="cta-two__inner">
