@@ -7,7 +7,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 
         {/*Page Header Start*/}
         <section className="page-header">
-            <div className="page-header__bg" style={{ backgroundImage: 'url(assets/images/backgrounds/page-header-bg.jpg' }} >
+            <div className="page-header__bg" style={{ backgroundImage: 'url(assets/images/backgrounds/plywood.png' }} >
             </div>
             <div className="container">
                 <div className="page-header__inner">

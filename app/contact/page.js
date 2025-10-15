@@ -78,7 +78,7 @@ export default function Home() {
             <div className="container">
                 <div className="row">
                     <div className="section-title text-center">
-                        <div className="section-title__tagline-box">
+                        <div className="section-title__tagline-box" style={{marginTop:'100px'}}>
                             <span className="section-title__tagline">Get in touch</span>
                         </div>
                         <h2 className="section-title__title">Send us a message</h2>

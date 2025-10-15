@@ -1,12 +1,14 @@
 import Layout from "@/components/layout/Layout"
+import Gallery from "@/components/sections/home5/Gallery"
 import Link from "next/link"
 export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={3} footerStyle={6} breadcrumbTitle="Services Details">
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Plywood">
+            <Gallery/>
         {/*Services Details Start*/}
-        <section className="services-details">
+        {/* <section className="services-details">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-8 col-lg-7">
@@ -170,12 +172,12 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*Services Details End*/}
 
 
         {/*CTA One Start*/}
-        <section className="cta-one">
+        {/* <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
@@ -195,7 +197,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*CTA One End*/}
 
         </Layout>

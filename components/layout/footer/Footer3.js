@@ -42,43 +42,43 @@ export default function Footer3() {
                                     </div>
                                     <ul className="footer-widget-three__link-list list-unstyled">
                                         <li>
-                                            <Link href="service-details">Credit industrys</Link>
+                                            <Link href="/">Home</Link>
                                         </li>
                                         <li>
-                                            <Link href="service-details">Credit Consulting</Link>
+                                            <Link href="about">About Us</Link>
                                         </li>
                                         <li>
-                                            <Link href="service-details">Business Credit industry</Link>
+                                            <Link href="products">Products</Link>
                                         </li>
                                         <li>
-                                            <Link href="service-details">Finance industry</Link>
+                                            <Link href="contact">Contact Us</Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link href="service-details">Software development</Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                                 <div className="footer-widget-three__column footer-widget-three__page">
                                     <div className="footer-widget-three__title-box">
-                                        <h3 className="footer-widget-three__title">Page</h3>
+                                        <h3 className="footer-widget-three__title">Categories</h3>
                                     </div>
                                     <ul className="footer-widget-three__link-list list-unstyled">
                                         <li>
-                                            <Link href="faq">FAQ</Link>
+                                            <Link href="plywood">Plywood</Link>
                                         </li>
                                         <li>
-                                            <Link href="contact">Contact</Link>
+                                            <Link href="contact">Laminates</Link>
                                         </li>
                                         <li>
-                                            <Link href="testimonials">Testimonials</Link>
+                                            <Link href="testimonials">Veneer</Link>
                                         </li>
                                         <li>
-                                            <Link href="about">Work Process</Link>
+                                            <Link href="about">Hardware</Link>
                                         </li>
                                         <li>
-                                            <Link href="gallery">Gallery</Link>
+                                            <Link href="gallery">Decorative Panels</Link>
                                         </li>
                                     </ul>
                                 </div>

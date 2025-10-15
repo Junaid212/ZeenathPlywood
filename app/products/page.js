@@ -1,12 +1,13 @@
 'use client'
 import Layout from "@/components/layout/Layout"
+import Gallery from "@/components/sections/home5/Gallery"
 import Work from "@/components/sections/home5/Work"
 import Link from "next/link"
 export default function Home() {
     
     return (
         <>
-        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Services">
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Products">
         {/*Services Page Start*/}
          <Work />
 
@@ -20,12 +21,12 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-1.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Elite Structures</Link>
+                                <h5 className="services-four__title"><Link href="plywood">Plywood</Link>
                                 </h5>
-                                <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
-                                </p>
+                                {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
+                                </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="service-details" className="services-four__btn">Read more <span
+                                    <Link href="plywood" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -39,10 +40,10 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-2.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Pixel Craft</Link>
+                                <h5 className="services-four__title"><Link href="service-details">Laminates</Link>
                                 </h5>
-                                <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
-                                </p>
+                                {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
+                                </p> */}
                                 <div className="services-four__btn-box">
                                     <Link href="service-details" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
@@ -58,11 +59,10 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-1.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Pro Build
-                                        Innovations</Link>
+                                <h5 className="services-four__title"><Link href="service-details">Veneer</Link>
                                 </h5>
-                                <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
-                                </p>
+                                {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
+                                </p> */}
                                 <div className="services-four__btn-box">
                                     <Link href="service-details" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
@@ -78,10 +78,10 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-4.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Pixel Craft</Link>
+                                <h5 className="services-four__title"><Link href="service-details">Hardware</Link>
                                 </h5>
-                                <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
-                                </p>
+                                {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
+                                </p> */}
                                 <div className="services-four__btn-box">
                                     <Link href="service-details" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
@@ -97,11 +97,11 @@ export default function Home() {
                                 <img src="assets/images/services/services-4-5.jpg" alt=""/>
                             </div>
                             <div className="services-four__content">
-                                <h5 className="services-four__title"><Link href="service-details">Pro Build
-                                        Innovations</Link>
+                                <h5 className="services-four__title"><Link href="service-details">Decorative Panels
+</Link>
                                 </h5>
-                                <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
-                                </p>
+                                {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
+                                </p> */}
                                 <div className="services-four__btn-box">
                                     <Link href="service-details" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
@@ -119,8 +119,8 @@ export default function Home() {
                             <div className="services-four__content">
                                 <h5 className="services-four__title"><Link href="service-details">Elite Structures</Link>
                                 </h5>
-                                <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
-                                </p>
+                                {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
+                                </p> */}
                                 <div className="services-four__btn-box">
                                     <Link href="service-details" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
@@ -154,6 +154,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            
         </section>
         {/*CTA One End*/}
        

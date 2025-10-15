@@ -43,7 +43,7 @@ export default function About() {
                     <div className="col-xl-6">
                         <div className="about-one__right">
                             <div className="section-title text-left">
-                                <div className="section-title__tagline-box">
+                                <div className="section-title__tagline-box" style={{marginTop:'150px'}}>
                                     <span className="section-title__tagline">ABOUT US</span>
                                 </div>
                                 <h2 className="section-title__title">Leaders in Interior Solutions</h2>
@@ -86,7 +86,7 @@ export default function About() {
             <div className="container">
                 <div className="counter-two__top">
                     <div className="section-title text-left">
-                        <div className="section-title__tagline-box">
+                        <div className="section-title__tagline-box" style={{marginTop:'50px'}}>
                             <span className="section-title__tagline">Best Roof rapairing</span>
                         </div>
                         <h2 className="section-title__title">Our Journey in Numbers </h2>
@@ -261,7 +261,7 @@ export default function About() {
                     <div className="col-xl-6 col-lg-6">
                         <div className="success-one__left">
                             <div className="section-title text-left">
-                                <div className="section-title__tagline-box">
+                                <div className="section-title__tagline-box" style={{marginTop:'70px'}}>
                                     <span className="section-title__tagline">Best Services</span>
                                 </div>
                                 <h2 className="section-title__title"> Committed To Your Success</h2>
@@ -301,7 +301,7 @@ export default function About() {
                     <div className="col-xl-6 col-lg-6">
                         <div className="faq-one__left">
                             <div className="section-title text-left">
-                                <div className="section-title__tagline-box">
+                                <div className="section-title__tagline-box" style={{marginTop:'80px'}}>
                                     <span className="section-title__tagline">SOME fAQS</span>
                                 </div>
                                 <h2 className="section-title__title">Got Questions? We’ve Got Answers </h2>

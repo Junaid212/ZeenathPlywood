@@ -21,7 +21,7 @@ export default function Work() {
                                     <span className="icon-measure-tape"></span>
                                 </div>
                                 <h3 className="work-process__title"><Link href="about">Carpentry Work</Link></h3>
-                                <p className="work-process__text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                                {/* <p className="work-process__text">Lorem ipsum dolor sit amet, consectetur adipiscing </p> */}
                             </div>
                         </div>
                         {/*Work Process Single End*/}
@@ -32,7 +32,7 @@ export default function Work() {
                                     <span className="icon-resistor"></span>
                                 </div>
                                 <h3 className="work-process__title"><Link href="about">Masonry Repair </Link></h3>
-                                <p className="work-process__text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                                {/* <p className="work-process__text">Lorem ipsum dolor sit amet, consectetur adipiscing </p> */}
                             </div>
                         </div>
                         {/*Work Process Single End*/}
@@ -43,7 +43,7 @@ export default function Work() {
                                     <span className="icon-hand-drill"></span>
                                 </div>
                                 <h3 className="work-process__title"><Link href="about">Demolition Services</Link></h3>
-                                <p className="work-process__text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                                {/* <p className="work-process__text">Lorem ipsum dolor sit amet, consectetur adipiscing </p> */}
                             </div>
                         </div>
                         {/*Work Process Single End*/}
@@ -54,7 +54,7 @@ export default function Work() {
                                     <span className="icon-insulating-tape"></span>
                                 </div>
                                 <h3 className="work-process__title"><Link href="about">Landscaping Design</Link></h3>
-                                <p className="work-process__text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                                {/* <p className="work-process__text">Lorem ipsum dolor sit amet, consectetur adipiscing </p> */}
                             </div>
                         </div>
                         {/*Work Process Single End*/}

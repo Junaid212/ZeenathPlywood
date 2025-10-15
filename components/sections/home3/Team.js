@@ -12,7 +12,7 @@ export default function Team() {
             </div>
             <div className="container">
                 <div className="section-title text-center" >
-                    <div className="section-title__tagline-box">
+                    <div className="section-title__tagline-box" style={{marginTop:'110px'}}>
                         <span className="section-title__tagline">Our Team</span>
                     </div>
                     <h2 className="section-title__title">Our Experts at Work</h2>

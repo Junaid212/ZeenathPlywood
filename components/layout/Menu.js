@@ -33,7 +33,7 @@ export default function Menu() {
                     </ul>
                 </li> */}
                 <li >
-                    <Link href="services">Products</Link>
+                    <Link href="products">Products</Link>
                     {/* <ul>
                         <li><Link href="services">Services</Link></li>
                         <li><Link href="service-details">Services Details</Link></li>
