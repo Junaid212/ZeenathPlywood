@@ -16,7 +16,7 @@ export default function Recent() {
                 <ul className="recent-project__list-box list-unstyled">
                     <li className="wow fadeInUp" data-wow-delay="100ms">
                         <div className="recent-project__img">
-                            <img src="assets/images/project/recent-project-1-1.jpg" alt=""/>
+                            <img src="assets/images/backgrounds/28.png" alt=""/>
                         </div>
                         <div className="recent-project__list-content">
                             <div className="icon">
@@ -34,7 +34,7 @@ export default function Recent() {
                     </li>
                     <li className="wow fadeInUp" data-wow-delay="300ms">
                         <div className="recent-project__img">
-                            <img src="assets/images/project/recent-project-1-1.jpg" alt=""/>
+                            <img src="assets/images/backgrounds/29.png" alt=""/>
                         </div>
                         <div className="recent-project__list-content">
                             <div className="icon">
@@ -52,7 +52,7 @@ export default function Recent() {
                     </li>
                     <li className="wow fadeInUp" data-wow-delay="600ms">
                         <div className="recent-project__img">
-                            <img src="assets/images/project/recent-project-1-1.jpg" alt=""/>
+                            <img src="assets/images/backgrounds/30.png" alt=""/>
                         </div>
                         <div className="recent-project__list-content">
                             <div className="icon">

@@ -1,5 +1,4 @@
 'use client'
-import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
@@ -34,12 +33,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://5.imimg.com/data5/SELLER/Default/2022/6/AC/XR/KO/153129402/cassa-3-catalogue-page-0004-500x500.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">  Seamless Louver panels</Link></h3>
+                                                            <h3 className="gallery-two__title">Seamless Louver panels</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -49,12 +47,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://images.jdmagicbox.com/quickquotes/images_main/rang-ea-39-beige-charcoal-decorative-wall-panel-2221798979-j44jdgyf.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Charcoal sheets</Link></h3>
+                                                            <h3 className="gallery-two__title">Charcoal sheets</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -64,12 +61,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://www.iforinterior.in/cdn/shop/files/MG_12_2288fd54-677c-4020-9a4c-59606422c1c7.jpg?v=1723540953" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details"> Mosaic panels </Link></h3>
+                                                            <h3 className="gallery-two__title">Mosaic panels</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -79,12 +75,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://naturalartisanhome.com/wp-content/uploads/2023/08/natural-square-weave-cane-webbing-W.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Ratan Cane rolls </Link></h3>
+                                                            <h3 className="gallery-two__title">Ratan Cane rolls</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -94,12 +89,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://cpimg.tistatic.com/06069312/b/4/extra-06069312.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Mirror engraved panels </Link></h3>
+                                                            <h3 className="gallery-two__title">Mirror engraved panels</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -109,12 +103,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://norcalaccentwalls.com/wp-content/uploads/2024/09/Wainscoting.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Wainscoting  </Link></h3>
+                                                            <h3 className="gallery-two__title">Wainscoting</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -124,12 +117,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://png.pngtree.com/thumb_back/fh260/background/20231003/pngtree-luxurious-vertical-gold-panel-bars-pattern-wall-texture-stunning-3d-rendering-image_13509473.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Gold Bar </Link></h3>
+                                                            <h3 className="gallery-two__title">Gold Bar</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -139,12 +131,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://pic.stonecontact.com/picture201511/20194/132622/artificial-marble-vein-alabaster-sheet-wall-panel-p722873-2b.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Alabaster</Link></h3>
+                                                            <h3 className="gallery-two__title">Alabaster</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -154,12 +145,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/337904675/TE/US/AS/2436748/rubber-cork-sheets.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Kork sheets</Link></h3>
+                                                            <h3 className="gallery-two__title">Kork sheets</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -169,12 +159,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://www.glopanels.com/unlockcms/Images/Product/Large/133130696025055754.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Charcofab fabric panels</Link></h3>
+                                                            <h3 className="gallery-two__title">Charcofab fabric panels</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -184,12 +173,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://cpimg.tistatic.com/1137917/b/4/cement-board.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Fibre cement boards </Link></h3>
+                                                            <h3 className="gallery-two__title">Fibre cement boards</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -199,12 +187,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://clayimports.com/cdn/shop/files/Tigre-Breeze-Block-Clay-Imports-Design-North-Arrow-Studio-Cary-Paul-Studios-1.jpg?v=1738942638" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Terra blocks  </Link></h3>
+                                                            <h3 className="gallery-two__title">Terra blocks</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -214,12 +201,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://clayimports.com/cdn/shop/products/Petalo_Terracotta-Breeze-Blocks_ClayImports_DesignbyHowdyVintage_4.jpg?v=1745419083&width=1946" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Breeze blocks </Link></h3>
+                                                            <h3 className="gallery-two__title">Breeze blocks</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -229,12 +215,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdyWg1O9T5CpKRxjqKAJ-zBqHziI3QF_dpww&s" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details"> Clayneer  </Link></h3>
+                                                            <h3 className="gallery-two__title">Clayneer</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -244,12 +229,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://d68pxkftt5390.cloudfront.net/image/b6957c08-7f5d-4bef-9af6-3f34d7b994d9.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details"> HD-HMR Fluted Panels </Link></h3>
+                                                            <h3 className="gallery-two__title">HD-HMR Fluted Panels</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -259,12 +243,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/9/WV/RE/VX/131598824/a5c6022c4e011d266eaa61432b4b394b.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">MDF Grill board  </Link></h3>
+                                                            <h3 className="gallery-two__title">MDF Grill board</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -274,12 +257,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://5.imimg.com/data5/LG/CM/MY-2658927/glo-mdf-wave-board.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">MDF wave board  </Link></h3>
+                                                            <h3 className="gallery-two__title">MDF wave board</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -289,12 +271,11 @@ export default function Gallery4() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://www.elen.in/wp-content/uploads/2020/11/3-5.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Artificial Gardening  </Link></h3>
+                                                            <h3 className="gallery-two__title">Artificial Gardening</h3>
                                                         </div>
                                                     </div>
                                                 </div>

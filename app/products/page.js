@@ -18,7 +18,7 @@ export default function Home() {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
-                                <img src="assets/images/services/services-4-1.jpg" alt=""/>
+                                <img src="assets/images/backgrounds/18.png" alt=""/>
                             </div>
                             <div className="services-four__content">
                                 <h5 className="services-four__title"><Link href="plywood">Plywood</Link>
@@ -37,7 +37,7 @@ export default function Home() {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
-                                <img src="assets/images/services/services-4-2.jpg" alt=""/>
+                                <img src="assets/images/backgrounds/19.png" alt=""/>
                             </div>
                             <div className="services-four__content">
                                 <h5 className="services-four__title"><Link href="laminates">Laminates</Link>
@@ -56,7 +56,7 @@ export default function Home() {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
-                                <img src="assets/images/services/services-4-1.jpg" alt=""/>
+                                <img src="assets/images/backgrounds/20.png" alt=""/>
                             </div>
                             <div className="services-four__content">
                                 <h5 className="services-four__title"><Link href="veneer">Veneer</Link>
@@ -75,7 +75,7 @@ export default function Home() {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
-                                <img src="assets/images/services/services-4-4.jpg" alt=""/>
+                                <img src="assets/images/backgrounds/21.png" alt=""/>
                             </div>
                             <div className="services-four__content">
                                 <h5 className="services-four__title"><Link href="hardware">Hardware</Link>
@@ -94,7 +94,7 @@ export default function Home() {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
-                                <img src="assets/images/services/services-4-5.jpg" alt=""/>
+                                <img src="assets/images/backgrounds/22.png" alt=""/>
                             </div>
                             <div className="services-four__content">
                                 <h5 className="services-four__title"><Link href="decorative-panels">Decorative Panels
@@ -111,7 +111,7 @@ export default function Home() {
                     </div>
                     {/* Services Four Single End */}
                     {/* Services Four Single Start */}
-                    <div className="col-xl-4 col-lg-4 col-md-6">
+                    {/* <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
                                 <img src="assets/images/services/services-4-6.jpg" alt=""/>
@@ -119,15 +119,13 @@ export default function Home() {
                             <div className="services-four__content">
                                 <h5 className="services-four__title"><Link href="service-details">Elite Structures</Link>
                                 </h5>
-                                {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
-                                </p> */}
                                 <div className="services-four__btn-box">
                                     <Link href="service-details" className="services-four__btn">Read more <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* Services Four Single End */}
                 </div>
             </div>
@@ -138,10 +136,10 @@ export default function Home() {
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
-                        <img src="assets/images/shapes/cta-one-shape-1.png" alt=""/>
+                        <img src="assets/images/backgrounds/24.png" alt=""/>
                     </div>
                     <div className="cta-one__img">
-                        <img src="assets/images/resources/cta-one-img.png" alt=""/>
+                        {/* <img src="assets/images/backgrounds/27.png" alt=""/> */}
                     </div>
                     <h3 className="cta-one__title">Craftin digital experiences<br/> With that inspire</h3>
                     <div className="cta-one__from-box">

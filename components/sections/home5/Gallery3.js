@@ -1,5 +1,4 @@
 'use client'
-import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
@@ -35,12 +34,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://www.thespruce.com/thmb/Kl652HYRVlP-fs8MHR-3ZrK4iqA=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc()/SPR-types-of-cabinet-hinges-7508637-HERO-d655544dfbfa44c2aa5012c566735d5d.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Hinges</Link></h3>
+                                                            <h3 className="gallery-two__title">Hinges</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -50,12 +48,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://m.media-amazon.com/images/I/61EwVAkou+L._UF1000,1000_QL80_.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Sliding & Folding systems</Link></h3>
+                                                            <h3 className="gallery-two__title">Sliding & Folding systems</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -65,12 +62,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO6spEhOQC5OWC9w4gAuwWcY3Px4Rv32po2Q&s" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Wardrobe accessories</Link></h3>
+                                                            <h3 className="gallery-two__title">Wardrobe accessories</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -80,12 +76,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZhnLSM7XkwVcl9MDlpGtpuEmX-y31jTxQw&s" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details"> Drawer runners</Link></h3>
+                                                            <h3 className="gallery-two__title">Drawer runners</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -95,12 +90,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://kitchenmore.com/wp-content/uploads/2020/02/kitchen-cabinet-storage-accessories-utensil-organizer.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Kitchen accessories </Link></h3>
+                                                            <h3 className="gallery-two__title">Kitchen accessories</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -110,12 +104,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://icdn.mebel-alu.com/2023/09/aluminium-profiles-for-frame.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Profiles  </Link></h3>
+                                                            <h3 className="gallery-two__title">Profiles</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -125,12 +118,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://www.ferio.in/image/cache/catalog/Ferio-Industries/FERIO-2-34-616x616.jpg.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Home Decor Handles</Link></h3>
+                                                            <h3 className="gallery-two__title">Home Decor Handles</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -140,12 +132,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://img-va.myshopline.com/image/store/1721959733427/9-93ad38fa-81a3-4ef6-a4e0-a031f60d42d4.jpg?w=1000&h=1000&q=80" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Wardrobe Handles </Link></h3>
+                                                            <h3 className="gallery-two__title">Wardrobe Handles</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -155,12 +146,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://cpimg.tistatic.com/04590142/b/4/Bed-Fittings.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Bed Fittings </Link></h3>
+                                                            <h3 className="gallery-two__title">Bed Fittings</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -170,43 +160,26 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://knobskart.com/cdn/shop/products/SOFALEG_Y.jpg?v=1681205985" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Sofa legs  </Link></h3>
+                                                            <h3 className="gallery-two__title">Sofa legs</h3>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <h2 style={{color:'white'}}> Architectural Hardware </h2>
+                                        <h2 style={{color:'white'}}>Architectural Hardware</h2>
                                         <div className="col-xl-3 col-lg-6">
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://www.ozokart.com/cdn/shop/files/Hinge-OZ-BH-NBB-E_W_4Calloutsv12.jpg?v=1746862060&width=1445" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details"> Door hinge </Link></h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-3 col-lg-6">
-                                            <div className="gallery-two__single">
-                                                <div className="gallery-two__img-box">
-                                                    <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
-                                                    </div>
-                                                    <div className="gallery-two__content">
-                                                        <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Door & Window fittings </Link></h3>
+                                                            <h3 className="gallery-two__title">Door hinge</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -216,12 +189,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://5.imimg.com/data5/LJ/TO/MY-69445/door-and-window-hardware-500x500.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details"> Mortice locking solutions</Link></h3>
+                                                            <h3 className="gallery-two__title">Door & Window fittings</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -231,12 +203,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://5.imimg.com/data5/SELLER/Default/2025/4/501173869/ZC/SG/BK/133252860/89-500x500.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Cylinder locks </Link></h3>
+                                                            <h3 className="gallery-two__title">Mortice locking solutions</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -246,12 +217,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://5.imimg.com/data5/KZ/GC/RP/SELLER-14981518/cylinder-locks.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Floor springs </Link></h3>
+                                                            <h3 className="gallery-two__title">Cylinder locks</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -261,12 +231,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://dormakaba-res.cloudinary.com/image/upload/t_prod-detail-square/f_auto,q_auto/v1745406626/dormakaba-prod/110000000624-im-bts65-41696-1200x1200.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Glass patch fittings  </Link></h3>
+                                                            <h3 className="gallery-two__title">Floor springs</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -276,12 +245,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz76M0RJyJwedTBFpwBSRsLfdnlnsh2v_tzQ&s" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Digital locking solutions </Link></h3>
+                                                            <h3 className="gallery-two__title">Glass patch fittings</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -291,12 +259,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://static.godrejenterprises.com/cuecard1_catusconnect_6bbd961a1c.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Pull handles </Link></h3>
+                                                            <h3 className="gallery-two__title">Digital locking solutions</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -306,12 +273,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://m.media-amazon.com/images/I/71sV7vVnTqL._UF1000,1000_QL80_.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Rim Locks  </Link></h3>
+                                                            <h3 className="gallery-two__title">Pull handles</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -321,12 +287,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://yaleonline.in/cdn/shop/files/KRT-3B-DC-BMBN-1.jpg?v=1753869299" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Pad Locks  </Link></h3>
+                                                            <h3 className="gallery-two__title">Rim Locks</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -336,12 +301,11 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://m.media-amazon.com/images/I/61VMlwOBrFL._UF1000,1000_QL80_.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Furniture Locks  </Link></h3>
+                                                            <h3 className="gallery-two__title">Pad Locks</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -351,36 +315,46 @@ export default function Gallery3() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://cdn.moglix.com/p/xb590J8ZSH0VW-xxlarge.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Door hooks  </Link></h3>
+                                                            <h3 className="gallery-two__title">Furniture Locks</h3>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <h2 style={{color:'white'}}>Safety Hardware </h2>
                                         <div className="col-xl-3 col-lg-6">
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://www.bigw.com.au/medias/sys_master/images/images/h81/hdf/66920701755422.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Safe locks </Link></h3>
+                                                            <h3 className="gallery-two__title">Door hooks</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 style={{color:'white'}}>Safety Hardware</h2>
+                                        <div className="col-xl-3 col-lg-6">
+                                            <div className="gallery-two__single">
+                                                <div className="gallery-two__img-box">
+                                                    <div className="gallery-two__img">
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDIQ7Clgs2RkxOgmN__Y97VTDyAVfaYOUeXw&s" alt=""/>
+                                                    </div>
+                                                    <div className="gallery-two__content">
+                                                        <div className="gallery-two__title-box">
+                                                            <h3 className="gallery-two__title">Safe locks</h3>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    
-                                    
                                 </div>
                             </div>
                             </SwiperSlide>

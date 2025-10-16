@@ -36,7 +36,7 @@ export default function Gallery2() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://5.imimg.com/data5/SELLER/Default/2024/12/471015263/IX/OL/SS/3577396/natural-wood-veneers-500x500.jpg" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
@@ -51,7 +51,7 @@ export default function Gallery2() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPJK7jHxm2j6ZxZ1vfiNRReoJCtXLNSuaF0QyICoM4r_rkxs3Ex1jhRLzGOAbnIeb5BDg&usqp=CAU" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
@@ -68,7 +68,7 @@ export default function Gallery2() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eLUvfDaTAlQFm6j-_VUess63ua-vPA2ykUhgT6Pk1q6MJQwXtGVCPsZeuFyhiJ-VWj8&usqp=CAU" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">

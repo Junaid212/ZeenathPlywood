@@ -36,7 +36,7 @@ export default function About() {
                         <div className="about-one__left">
                             <div className="about-one__img wow slideInLeft" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
-                                <img src="assets/images/resources/about-one-img-1.jpg" alt=""/>
+                                <img src="assets/images/backgrounds/16.png" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@ export default function About() {
             </div>
             <div className="success-one__img-box">
                 <div className="success-one__img">
-                    <img src="assets/images/resources/success-one-img-1.jpg" alt=""/>
+                    <img src="assets/images/backgrounds/17.png" alt=""/>
                 </div>
                 <div className="success-one__counter">
                     <ul className="list-unstyled success-one__counter-list">
@@ -370,7 +370,7 @@ export default function About() {
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
-                        <img src="assets/images/shapes/ply.png" alt=""/>
+                        <img src="assets/images/backgrounds/27.png" alt=""/>
                     </div>
                     <div className="cta-one__img">
                         <img src="assets/images/resources/ply.png" alt=""/>

@@ -14,7 +14,7 @@ export default function Home() {
                     <div className="col-xl-6 col-lg-6">
                         <div className="contact-page__left">
                             <div className="contact-page__img">
-                                <img src="assets/images/resources/contact-page-img-1.jpg" alt=""/>
+                                <img src="assets/images/backgrounds/23.png" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export default function Home() {
                                     <div className="content">
                                         <h3>Phone number</h3>
                                         <p><Link href="tel:+91 96 06 260928 ">+91 96 06 260928 </Link></p>
-                                        <p><Link href="tel:1234000000">1234 - 000 - 000 </Link></p>
+                                        {/* <p><Link href="tel:1234000000">1234 - 000 - 000 </Link></p> */}
                                     </div>
                                 </li>
                                 <li>
@@ -78,7 +78,7 @@ export default function Home() {
             <div className="container">
                 <div className="row">
                     <div className="section-title text-center">
-                        <div className="section-title__tagline-box" style={{marginTop:'100px'}}>
+                        <div className="section-title__tagline-box" style={{marginTop:'150px'}}>
                             <span className="section-title__tagline">Get in touch</span>
                         </div>
                         <h2 className="section-title__title">Send us a message</h2>
@@ -129,10 +129,10 @@ export default function Home() {
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
-                        <img src="assets/images/shapes/cta-one-shape-1.png" alt=""/>
+                        <img src="assets/images/backgrounds/26.png" alt=""/>
                     </div>
                     <div className="cta-one__img">
-                        <img src="assets/images/resources/cta-one-img.png" alt=""/>
+                        {/* <img src="assets/images/backgrounds/27.png" alt=""/> */}
                     </div>
                     <h3 className="cta-one__title">Craftin digital experiences<br/> With that inspire</h3>
                     <div className="cta-one__from-box">

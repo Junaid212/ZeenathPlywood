@@ -14,10 +14,10 @@ export default function About2() {
                                 <div className="section-title__tagline-box" style={{marginTop:'90px'}}>
                                     <span className="section-title__tagline">Know About Us</span>
                                 </div>
-                                <h2 className="section-title__title"> What Makes Us Different</h2>
+                                <h2 className="section-title__title"> What Makes<br/> Us Different</h2>
                             </div>
-                            <p className="about-four__text">We combine quality products, reliable service,
-                                 and a customer-first approach to deliver interiors that truly stand out.</p>
+                            <p className="about-four__text">We combine quality products, reliable service,<br/>
+                                 and a customer-first approach to deliver interiors that<br/> truly stand out.</p>
                             <div className="about-four__btn-box">
                                 <Link href="about" className="about-four__btn thm-btn">Read more<span
                                         className="icon-dabble-arrow-right"></span></Link>
