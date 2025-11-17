@@ -57,12 +57,12 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/303.png" alt=""/>
+                                                        <img src="assets/images/blog/3.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details"> IS 303 - MR Grade</Link></h3>
+                                                                    href="mr-grade"> IS 303 - MR Grade</Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -78,7 +78,7 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://5.imimg.com/data5/SELLER/Default/2020/9/FD/JN/BS/104939636/plyneer-gold-bwp-710-marine-plywood.jpg" alt=""/>
+                                                        <img src="assets/images/blog/4.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
@@ -99,7 +99,7 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/293828571/OM/GW/QL/63628889/greenply-club-is-10701-grade-plywood-500x500.jpg" alt=""/>
+                                                        <img src="assets/images/blog/5.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
@@ -120,7 +120,7 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://assets.bldnxt.in/catalog/product/cache/1/image/a77c1558d860704591e3027d1ebed402/s/h/shha691949_greenply691949_5d2727929ed5e.png" alt=""/>
+                                                        <img src="assets/images/blog/6.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
@@ -141,7 +141,7 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://5.imimg.com/data5/SELLER/Default/2025/6/522690428/DR/ET/YJ/6362173/wooden-block-board-and-ply-make-archid-with-7-years-warranty.jpg" alt=""/>
+                                                        <img src="assets/images/blog/7.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
@@ -162,7 +162,7 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://4.imimg.com/data4/XT/OT/MY-6260483/filmface-975x1024-500x500.jpg" alt=""/>
+                                                        <img src="assets/images/blog/8.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
@@ -183,7 +183,7 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://5.imimg.com/data5/BS/SW/TK/SELLER-3664549/chequered-plywood-500x500.jpeg" alt=""/>
+                                                        <img src="assets/images/blog/9.png" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">

@@ -13,7 +13,7 @@ export default function Services() {
                             <div className="services-five__icon">
                                 <span className="icon-swift-cargo"></span>
                             </div>
-                            <h3 className="services-five__title"><Link href="service-details">Quality You Can Trust</Link></h3>
+                            <h3 className="services-five__title"><Link href="#">Quality You Can Trust</Link></h3>
                         </div>
                     </div>
                     {/*Services Five Single End*/}
@@ -23,7 +23,7 @@ export default function Services() {
                             <div className="services-five__icon">
                                 <span className="icon-proconstruct"></span>
                             </div>
-                            <h3 className="services-five__title"><Link href="service-details">Variety & Choice</Link></h3>
+                            <h3 className="services-five__title"><Link href="#">Variety & Choice</Link></h3>
                         </div>
                     </div>
                     {/*Services Five Single End*/}
@@ -33,7 +33,7 @@ export default function Services() {
                             <div className="services-five__icon">
                                 <span className="icon-constructo-pro"></span>
                             </div>
-                            <h3 className="services-five__title"><Link href="service-details">Reliability & Expertise</Link></h3>
+                            <h3 className="services-five__title"><Link href="#">Reliability & Expertise</Link></h3>
                         </div>
                     </div>
                     {/*Services Five Single End*/}
@@ -43,7 +43,7 @@ export default function Services() {
                             <div className="services-five__icon">
                                 <span className="icon-renovate"></span>
                             </div>
-                            <h3 className="services-five__title"><Link href="service-details">Customer-Centric Approach</Link></h3>
+                            <h3 className="services-five__title"><Link href="#">Customer-Centric Approach</Link></h3>
                         </div>
                     </div>
                     {/*Services Five Single End*/}

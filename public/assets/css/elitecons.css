@@ -8133,6 +8133,7 @@ ul {
 
 .about-three__right .section-title {
   margin-bottom: 20px;
+  margin-top: -90px;
 }
 
 .about-three__points {
@@ -8217,6 +8218,7 @@ ul {
   align-items: flex-end;
   justify-content: space-between;
   margin-bottom: 58px;
+  margin-top: 80px;
 }
 
 .services-six__top .section-title__tagline {

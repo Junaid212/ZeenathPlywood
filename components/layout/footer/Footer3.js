@@ -28,10 +28,10 @@ export default function Footer3() {
                                         </div>
                                     </form>
                                     <div className="site-footer-three__social">
-                                        <Link href="#"><i className="icon-facebook"></i></Link>
-                                        <Link href="#"><i className="icon-twitter"></i></Link>
-                                        <Link href="#"><i className="icon-link-in"></i></Link>
-                                        <Link href="#"><i className="icon-pinterest"></i></Link>
+                                        <Link href="https://www.facebook.com/p/Zeenath-Plywood-61564139555929/" target="blank"><i className="icon-facebook"></i></Link>
+                                        <Link href="https://www.instagram.com/zeenathplywoodmangalore/" target="blank"><i className="icon-instagram"></i></Link>
+                                        {/* <Link href="#"><i className="icon-link-in"></i></Link>
+                                        <Link href="#"><i className="icon-pinterest"></i></Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default function Footer3() {
                                             </div>
                                             <div className="content">
                                                 <span>Address</span>
-                                                <p>66 Broklyant, New York India</p>
+                                                <p>Polymer House, Nellikai<br/> Road, Mangalore</p>
                                             </div>
                                         </li>
                                         <li>
@@ -127,11 +127,11 @@ export default function Footer3() {
                 <div className="container">
                     <div className="site-footer-three__bottom-inner">
                         <p className="site-footer-three__bottom-text">© Bright Media 2025 | All Rights Reserved</p>
-                        <ul className="list-unstyled site-footer-three__bottom-menu">
+                        {/* <ul className="list-unstyled site-footer-three__bottom-menu">
                             <li><Link href="about">Trams & Condition</Link></li>
                             <li><Link href="about">Privacy Policy</Link></li>
                             <li><Link href="contact">Contact Us</Link></li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>

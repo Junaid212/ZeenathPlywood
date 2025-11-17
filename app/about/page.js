@@ -48,8 +48,10 @@ export default function About() {
                                 </div>
                                 <h2 className="section-title__title">Leaders in Interior Solutions</h2>
                             </div>
-                            <p className="about-one__text">Since 1996, Zeenath has been providing high-quality plywood, laminates, and veneers. 
-                                We combine quality products with reliable service to meet every customer’s needs</p>
+                            <p className="about-one__text">Established in 1998 with a focus on quality and service,
+                                 the company expanded into Shimoga in 2007 and introduced the first dedicated plywood
+                                  showrooms in Mangalore and Shimoga in 2016. In 2021, it advanced into manufacturing
+                                   with its own state-of-the-art plywood factory, ensuring full quality control and vertical integration.</p>
                             <ul className="about-one__points-list list-unstyled">
                                 <li>
                                     <div className="icon">

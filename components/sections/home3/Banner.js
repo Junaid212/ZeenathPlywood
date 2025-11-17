@@ -47,10 +47,10 @@ export default function Banner() {
                                 <div className="main-slider-three__social-shape"></div>
                             </div>
                             <div className="main-slider-three__social">
-                                <Link href="#"><i className="icon-facebook"></i></Link>
-                                <Link href="#"><i className="icon-instagram"></i></Link>
-                                <Link href="#"><i className="icon-Frame"></i></Link>
-                                <Link href="#"><i className="icon-link-in"></i></Link>
+                                <Link href="https://www.facebook.com/p/Zeenath-Plywood-61564139555929/" target="blank"><i className="icon-facebook"></i></Link>
+                                <Link href="https://www.instagram.com/zeenathplywoodmangalore/" target="blank"><i className="icon-instagram"></i></Link>
+                                {/* <Link href="#"><i className="icon-Frame"></i></Link>
+                                <Link href="#"><i className="icon-link-in"></i></Link> */}
                             </div>
                         </div>
                         <div className="main-slider-three__bg"
@@ -90,10 +90,10 @@ export default function Banner() {
                                 <div className="main-slider-three__social-shape"></div>
                             </div>
                             <div className="main-slider-three__social">
-                                <Link href="#"><i className="icon-facebook"></i></Link>
-                                <Link href="#"><i className="icon-instagram"></i></Link>
-                                <Link href="#"><i className="icon-Frame"></i></Link>
-                                <Link href="#"><i className="icon-link-in"></i></Link>
+                                <Link href="https://www.facebook.com/p/Zeenath-Plywood-61564139555929/" target="blank"><i className="icon-facebook"></i></Link>
+                                <Link href="https://www.instagram.com/zeenathplywoodmangalore/" target="blank"><i className="icon-instagram"></i></Link>
+                                {/* <Link href="#"><i className="icon-Frame"></i></Link>
+                                <Link href="#"><i className="icon-link-in"></i></Link> */}
                             </div>
                         </div>
                         <div className="main-slider-three__bg"
@@ -133,10 +133,10 @@ export default function Banner() {
                                 <div className="main-slider-three__social-shape"></div>
                             </div>
                             <div className="main-slider-three__social">
-                                <Link href="#"><i className="icon-facebook"></i></Link>
-                                <Link href="#"><i className="icon-instagram"></i></Link>
-                                <Link href="#"><i className="icon-Frame"></i></Link>
-                                <Link href="#"><i className="icon-link-in"></i></Link>
+                                <Link href="https://www.facebook.com/p/Zeenath-Plywood-61564139555929/" target="blank"><i className="icon-facebook"></i></Link>
+                                <Link href="https://www.instagram.com/zeenathplywoodmangalore/" target="blank"><i className="icon-instagram"></i></Link>
+                                {/* <Link href="#"><i className="icon-Frame"></i></Link>
+                                <Link href="#"><i className="icon-link-in"></i></Link> */}
                             </div>
                         </div>
                         <div className="main-slider-three__bg"

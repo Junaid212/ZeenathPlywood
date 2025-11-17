@@ -34,11 +34,14 @@ export default function Menu() {
                 </li> */}
                 <li >
                     <Link href="products">Products</Link>
-                    {/* <ul>
-                        <li><Link href="services">Services</Link></li>
-                        <li><Link href="service-details">Services Details</Link></li>
+                    <ul>
+                        <li><Link href="/plywood">Plywood</Link></li>
+                        <li><Link href="/laminates">Laminates</Link></li>
+                        <li><Link href="/veneer">Veneer</Link></li>
+                        <li><Link href="/hardware">Hardware</Link></li>
+                        <li><Link href="/decorative-panels">Decorative Panels</Link></li>
                         
-                    </ul> */}
+                    </ul>
                 </li>
                 {/* <li className="dropdown">
                     <Link href="#">Projects</Link>

@@ -26,7 +26,7 @@ export default function Home() {
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="plywood" className="services-four__btn">Read more <span
+                                    <Link href="plywood" className="services-four__btn">Explore <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ export default function Home() {
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="laminates" className="services-four__btn">Read more <span
+                                    <Link href="laminates" className="services-four__btn">Explore <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ export default function Home() {
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="veneer" className="services-four__btn">Read more <span
+                                    <Link href="veneer" className="services-four__btn">Explore <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ export default function Home() {
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="hardware" className="services-four__btn">Read more <span
+                                    <Link href="hardware" className="services-four__btn">Explore <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ export default function Home() {
                                 {/* <p className="services-four__text">Et purus duis sollicit udin pur <br/> us duis sollicitudin
                                 </p> */}
                                 <div className="services-four__btn-box">
-                                    <Link href="decorative-panels" className="services-four__btn">Read more <span
+                                    <Link href="decorative-panels" className="services-four__btn">Explore <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ export default function Home() {
                                 <h5 className="services-four__title"><Link href="service-details">Elite Structures</Link>
                                 </h5>
                                 <div className="services-four__btn-box">
-                                    <Link href="service-details" className="services-four__btn">Read more <span
+                                    <Link href="service-details" className="services-four__btn">Explore <span
                                             className="icon-dabble-arrow-right"></span></Link>
                                 </div>
                             </div>
