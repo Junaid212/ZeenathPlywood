@@ -83,7 +83,7 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 710 - MARINE Grade</Link></h3>
+                                                                    href="marine-grade">IS 710 - MARINE Grade</Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -104,7 +104,7 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 10701 - BWP Grade </Link></h3>
+                                                                    href="bwp-grade">IS 10701 - BWP Grade </Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -125,7 +125,7 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 5509 - FIRE RETARDANT Grade</Link></h3>
+                                                                    href="fire-retardant">IS 5509 - FIRE RETARDANT Grade</Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -146,7 +146,7 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 1659 - Block Board </Link></h3>
+                                                                    href="block-board">IS 1659 - Block Board </Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -167,7 +167,7 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">IS 4990 - SHUTTERING Grade </Link></h3>
+                                                                    href="shuttering-grade">IS 4990 - SHUTTERING Grade </Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -188,7 +188,7 @@ export default function Gallery() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Chequered & Truck flooring</Link></h3>
+                                                                    href="chequered-truck-flooring">Chequered & Truck flooring</Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -204,12 +204,12 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://www.longtermplywood.com/icms/upload/6f20e430b05511ef969b2503e85228bd/pic/productmanager-productpic/031da530bda611efbd8381e1dd49f880/Directory/melamine%20laminated%20particle%20board_1734570618627.webp" alt=""/>
+                                                        <img src="assets/images/blog/10.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Particle board </Link></h3>
+                                                                    href="particle-board">Particle board </Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -225,12 +225,12 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://images.jdmagicbox.com/quickquotes/images_main/-fl047im1.jpg" alt=""/>
+                                                        <img src="assets/images/blog/12.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Bamboo sheet</Link></h3>
+                                                                    href="bamboo-sheet">Bamboo sheet</Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -246,12 +246,12 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/Medium/hdhmr-mdf-boards-thickness-1-20250212170522359.jpg" alt=""/>
+                                                        <img src="assets/images/blog/13.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">MDF / HDF / HDHMR </Link></h3>
+                                                                    href="mdf-hdf-hdhmr">MDF / HDF / HDHMR </Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -267,12 +267,12 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://maicagroup.com/wp-content/uploads/2025/07/Lamination-WPC-Door-frames3.webp" alt=""/>
+                                                        <img src="assets/images/blog/14.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">PVC / WPC / WPC FRAME </Link></h3>
+                                                                    href="pvc-wpcframe">PVC / WPC FRAME </Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -288,12 +288,12 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeaT9ndJlhmgWhG8-o_ebcYIEZZbu55ez-LA&s" alt=""/>
+                                                        <img src="assets/images/blog/15.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">DOOR </Link></h3>
+                                                                    href="door">DOOR </Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>
@@ -309,12 +309,12 @@ export default function Gallery() {
                                             <div className="gallery-two__single">
                                                 <div className="gallery-two__img-box">
                                                     <div className="gallery-two__img">
-                                                        <img src="https://cdn.shopify.com/s/files/1/0616/1711/1178/files/BoxJoint11.jpg?v=1693233947" alt=""/>
+                                                        <img src="assets/images/blog/16.webp" alt=""/>
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">FINGER JOINT </Link></h3>
+                                                                    href="finger-joints">FINGER JOINT </Link></h3>
                                                             {/* <p className="gallery-two__text">Lorem Ipsum is simply dum text
                                                                 of <br/>the printing and typesetting</p> */}
                                                         </div>

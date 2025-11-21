@@ -39,7 +39,7 @@ export default function Gallery1() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Acrylic sheets</Link></h3>
+                                                                    href="acrylic-sheet">Acrylic sheets</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -54,7 +54,7 @@ export default function Gallery1() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Pvc </Link></h3>
+                                                                    href="pvc">Pvc </Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -69,7 +69,7 @@ export default function Gallery1() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">1.25mm Laminate </Link></h3>
+                                                                    href="1-25-mm-laminate">1.25mm Laminate </Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -84,7 +84,7 @@ export default function Gallery1() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">1mm Laminate</Link></h3>
+                                                                    href="1-mm-laminate">1mm Laminate</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -99,7 +99,7 @@ export default function Gallery1() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">0.8mm Laminate </Link></h3>
+                                                                    href="0-8-mm-laminates">0.8mm Laminate </Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -114,7 +114,7 @@ export default function Gallery1() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Liner Laminate</Link></h3>
+                                                                    href="liner-laminate">Liner Laminate</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -129,87 +129,13 @@ export default function Gallery1() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Hylam </Link></h3>
+                                                                    href="hylam">Hylam </Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* <div className="col-xl-3 col-lg-6">
-                                            <div className="gallery-two__single">
-                                                <div className="gallery-two__img-box">
-                                                    <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
-                                                    </div>
-                                                    <div className="gallery-two__content">
-                                                        <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Particle board </Link></h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-3 col-lg-6">
-                                            <div className="gallery-two__single">
-                                                <div className="gallery-two__img-box">
-                                                    <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
-                                                    </div>
-                                                    <div className="gallery-two__content">
-                                                        <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Bamboo sheet</Link></h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-3 col-lg-6">
-                                            <div className="gallery-two__single">
-                                                <div className="gallery-two__img-box">
-                                                    <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
-                                                    </div>
-                                                    <div className="gallery-two__content">
-                                                        <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">MDF / HDF / HDHMR </Link></h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-3 col-lg-6">
-                                            <div className="gallery-two__single">
-                                                <div className="gallery-two__img-box">
-                                                    <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
-                                                    </div>
-                                                    <div className="gallery-two__content">
-                                                        <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">PVC / WPC / WPC FRAME </Link></h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-3 col-lg-6">
-                                            <div className="gallery-two__single">
-                                                <div className="gallery-two__img-box">
-                                                    <div className="gallery-two__img">
-                                                        <img src="assets/images/gallery/gallery-2-4.jpg" alt=""/>
-                                                    </div>
-                                                    <div className="gallery-two__content">
-                                                        <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">DOOR </Link></h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> */}
+                                        
                                     </div>
                                 </div>
                             </div>

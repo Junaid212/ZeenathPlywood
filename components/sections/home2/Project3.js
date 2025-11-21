@@ -28,73 +28,24 @@ const swiperOptions = {
 
 const projects = [
     { 
-        title: "IS 303 - MR Grade",
-        link: "/mr-grade",
-        image: "assets/images/blog/29.webp"
+        title: "Natural Veneer",
+        link: "/natural",
+        image: "assets/images/project/project-2-1.jpg"
     },
     { 
-        title: "IS 710 - MARINE Grade", 
-        link: "/marine-grade",
-        image: "assets/images/blog/30.webp"
+        title: "Recon Venner", 
+        link: "/recon",
+        image: "assets/images/project/project-2-2.jpg"
     },
     { 
-        title: "IS 10701 - BWP Grade",
-        link: "/bwp-grade",
-        image: "assets/images/blog/31.webp"
-    },
-    { 
-        title: "IS 5509 - FIRE RETARDANT Grade",
-        link: "/fire-retardant",
-        image: "assets/images/blog/32.webp"
-    },
-    { 
-        title: "IS 1659 - Block Board",
-        link: "/block-board",
-        image: "assets/images/blog/33.webp"
-    },
-    { 
-        title: "IS 4990 - SHUTTERING Grade",
-        link: "/shuttering-grade",
-        image: "assets/images/blog/34.webp"
-    },
-    { 
-        title: "Chequered & Truck flooring",
-        link: "/chequered-truck-flooring",
-        image: "assets/images/blog/35.webp"
-    },
-    { 
-        title: "Particle board",
-        link: "/particle-board",
-        image: "assets/images/blog/37.webp"
-    },
-    { 
-        title: "Bamboo sheet",
-        link: "/bamboo-sheet",
-        image: "assets/images/blog/38.webp"
-    },
-    { 
-        title: "MDF / HDF / HDHMR",
-        link: "/mdf-hdf-hdhmr",
-        image: "assets/images/blog/39.webp"
-    },
-    { 
-        title: "PVC / WPC / WPC FRAME",
-        link: "/pvc-wpcframe",
-        image: "assets/images/blog/40.webp"
-    },
-    { 
-        title: "DOOR",
-        link: "/door",
-        image: "assets/images/blog/41.webp"
-    },
-    { 
-        title: "FINGER JOINT",
-        link: "/finger-joints",
-        image: "assets/images/blog/42.webp"
+        title: "Stone Veneer", 
+        link: "/stone-veneer",
+        image: "assets/images/project/project-2-2.jpg"
     }
-]
+];
 
-export default function Project() {
+
+export default function Project3() {
     return (
         <>
         {/* Project Two Start */}

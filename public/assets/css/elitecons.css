@@ -6752,7 +6752,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg, rgba(0, 22, 89, 0) 0%, rgba(0, 22, 89, 0.81) 100%);
+  background: linear-gradient(180deg, rgba(0, 22, 89, 0) 0%, rgba(12, 169, 159, 0.81) 100%);
   transition-delay: .1s;
   transition-timing-function: ease-in-out;
   transition-duration: .5s;
@@ -15348,7 +15348,7 @@ ul {
 .project-details {
   position: relative;
   display: block;
-  padding: 120px 0 252px;
+  padding: 120px 0 352px;
   z-index: 1;
 }
 
@@ -15566,13 +15566,14 @@ ul {
 .project-details__information {
   position: absolute;
   right: 84px;
-  bottom: -278px;
+  top: 380px;
   background-color: var(--elitecons-white);
   border: 1px solid var(--elitecons-bdr-color);
   padding: 37px 40px 19px;
   max-width: 410px;
   width: 100%;
   z-index: 2;
+  height: auto;
 }
 
 .project-details__information-minus {
@@ -15629,7 +15630,7 @@ ul {
 
 .project-details__information-list li>p>i {
   position: relative;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   font-size: 15px;
   color: var(--elitecons-base);

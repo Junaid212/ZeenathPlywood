@@ -2,6 +2,8 @@
 import Layout from "@/components/layout/Layout"
 import ModalVideo from 'react-modal-video'
 import { useState } from 'react'
+import Pricing from "@/components/sections/home2/Pricing"
+import Project from "@/components/sections/home2/Project"
 
 export default function Home() {
 
@@ -42,7 +44,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="project-details__content">
-                    <h3 className="project-details__title">Moisture Resistant Plywood</h3>
+                    <h3 className="project-details__title">MR Grade Plywood <br/><small>Moisture Resistant Plywood for Interior</small></h3>
                     <p className="project-details__text">MR Grade Plywood, also known as Commercial Plywood, is a popular choice for interior <br/>
                     furniture and woodworking projects. Designed to handle humidity and occasional moisture,<br/>
                      this plywood offers excellent durability, smooth finishing, and strong bonding — all at an <br/>
@@ -83,7 +85,7 @@ export default function Home() {
                                             <p>Affordable – Best budget-friendly plywood option for interiors</p>
                                         </li>
                                     </ul>
-                                    <div className="project-details__client-box">
+                                    {/* <div className="project-details__client-box">
                                         <div className="project-details__client-img">
                                             <img src="assets/images/blog/2.png" alt=""/>
                                         </div>
@@ -93,10 +95,10 @@ export default function Home() {
                                                  It’s the perfect choice for carpenters, interior designers, and homeowners who want durable interiors without overspending.
                                             </p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-5">
+                            {/* <div className="col-xl-4 col-lg-5">
                                 <div className="project-details__bottom-right">
                                     <div className="project-details__information">
                         <div className="project-details__information-minus"></div>
@@ -121,14 +123,10 @@ export default function Home() {
                             <li>
                                 <p><span>Partitions and room dividers</span></p>
                             </li>
-                            {/* <li>
-                                <p><span>Rating:</span><i className="icon-star"></i><i className="icon-star"></i><i
-                                        className="icon-star"></i><i className="icon-star"></i><i className="icon-star"></i></p>
-                            </li> */}
                         </ul>
                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -136,7 +134,7 @@ export default function Home() {
         </section>
         {/*Project Details End*/}
         <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
-
+<Project />
 
         {/*CTA One Start*/}
         <section className="cta-one">

@@ -36,7 +36,7 @@ export default function Services2() {
                                 <div className="services-six__content">
                                     <h3 className="services-six__title"><Link href="service-details">Wide Range</Link>
                                     </h3>
-                                    <p className="services-six__text">We offer many options to suit every need
+                                    <p className="services-six__text">We offer options to suit every need.
                                     </p>
                                     <div className="services-six__read-more">
                                         <Link href="service-details">Read more<span

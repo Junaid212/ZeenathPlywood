@@ -34,7 +34,7 @@ export default function Whycoose() {
                                     </div>
                                     <div className="content">
                                         <span>Need help?</span>
-                                        <p><Link href="tel:4805550103">(480) 555-0103</Link></p>
+                                        <p><Link href="tel:+919606260928">+91 96 06 260928</Link></p>
                                     </div>
                                 </li>
                                 <li>
@@ -43,7 +43,7 @@ export default function Whycoose() {
                                     </div>
                                     <div className="content">
                                         <span>Requesting A Call:</span>
-                                        <p><Link href="mailto:info@example.com">info@example.com</Link></p>
+                                        <p><Link href="mailto:zeenathplywood@gmail.com">zeenathplywood@gmail.com</Link></p>
                                     </div>
                                 </li>
                             </ul>

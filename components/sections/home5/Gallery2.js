@@ -41,7 +41,7 @@ export default function Gallery2() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Natural </Link></h3>
+                                                                    href="natural">Natural </Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -56,7 +56,7 @@ export default function Gallery2() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Recon </Link></h3>
+                                                                    href="recon">Recon </Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -73,7 +73,7 @@ export default function Gallery2() {
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
                                                             <h3 className="gallery-two__title"><Link
-                                                                    href="project-details">Stone Veneer</Link></h3>
+                                                                    href="stone-veneer">Stone Veneer</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>

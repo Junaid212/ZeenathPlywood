@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
@@ -38,7 +39,8 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Hinges</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="hinges">Hinges</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -52,7 +54,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Sliding & Folding systems</h3>
+                                                            <h3 className="gallery-two__title"><Link href="sliding-folding">Sliding & Folding systems</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -66,7 +68,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Wardrobe accessories</h3>
+                                                            <h3 className="gallery-two__title"><Link href="wardrobe-accessories">Wardrobe accessories</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -80,7 +82,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Drawer runners</h3>
+                                                            <h3 className="gallery-two__title"><Link href="drawer-runners">Drawer runners</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -94,7 +96,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Kitchen accessories</h3>
+                                                            <h3 className="gallery-two__title"><Link href="kitchen-acc">Kitchen accessories</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -108,7 +110,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Profiles</h3>
+                                                            <h3 className="gallery-two__title"><Link href="profiles">Profiles</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -122,7 +124,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Home Decor Handles</h3>
+                                                            <h3 className="gallery-two__title"><Link href="home-decor">Home Decor Handles</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -136,7 +138,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Wardrobe Handles</h3>
+                                                            <h3 className="gallery-two__title"><Link href="wardrobe-handles">Wardrobe Handles</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -150,7 +152,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Bed Fittings</h3>
+                                                            <h3 className="gallery-two__title"><Link href="bed-fittings">Bed Fittings</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -164,7 +166,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Sofa legs</h3>
+                                                            <h3 className="gallery-two__title"><Link href="sofa-legs">Sofa legs</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
