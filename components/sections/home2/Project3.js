@@ -33,7 +33,7 @@ const projects = [
         image: "assets/images/project/project-2-1.jpg"
     },
     { 
-        title: "Recon Venner", 
+        title: "Recon Veneer", 
         link: "/recon",
         image: "assets/images/project/project-2-2.jpg"
     },

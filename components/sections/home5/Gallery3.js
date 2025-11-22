@@ -181,7 +181,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Door hinge</h3>
+                                                            <h3 className="gallery-two__title"><Link href="door-hinge">Door hinge</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -195,7 +195,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Door & Window fittings</h3>
+                                                            <h3 className="gallery-two__title"><Link href="door-window-fittings">Door & Window fittings</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -209,7 +209,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Mortice locking solutions</h3>
+                                                            <h3 className="gallery-two__title"><Link href="mortice-locking-solutions">Mortice locking solutions</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -223,7 +223,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Cylinder locks</h3>
+                                                            <h3 className="gallery-two__title"><Link href="cylinder-locks">Cylinder locks</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -237,7 +237,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Floor springs</h3>
+                                                            <h3 className="gallery-two__title"><Link href="floor-springs">Floor springs</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -251,7 +251,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Glass patch fittings</h3>
+                                                            <h3 className="gallery-two__title"><Link href="glass-patch-fittings">Glass patch fittings</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -265,7 +265,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Digital locking solutions</h3>
+                                                            <h3 className="gallery-two__title"><Link href="digital-locking-solutions">Digital locking solutions</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -279,7 +279,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Pull handles</h3>
+                                                            <h3 className="gallery-two__title"><Link href="pull-handles">Pull handles</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -293,7 +293,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Rim Locks</h3>
+                                                            <h3 className="gallery-two__title"><Link href="rim-locks">Rim Locks</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -307,7 +307,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Pad Locks</h3>
+                                                            <h3 className="gallery-two__title"><Link href="pad-locks">Pad Locks</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -321,7 +321,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Furniture Locks</h3>
+                                                            <h3 className="gallery-two__title"><Link href="furniture-locks">Furniture Locks</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -335,7 +335,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Door hooks</h3>
+                                                            <h3 className="gallery-two__title"><Link href="door-hooks">Door hooks</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -350,7 +350,7 @@ export default function Gallery3() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Safe locks</h3>
+                                                            <h3 className="gallery-two__title"><Link href="safe-locks">Safe locks</Link></h3>
                                                         </div>
                                                     </div>
                                                 </div>

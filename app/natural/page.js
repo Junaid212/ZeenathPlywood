@@ -122,7 +122,7 @@ export default function Home() {
         <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
 <Project3 />
         {/*CTA One Start*/}
-        <section className="cta-one">
+        {/* <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
@@ -142,7 +142,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*CTA One End*/}
         </Layout>
         </>

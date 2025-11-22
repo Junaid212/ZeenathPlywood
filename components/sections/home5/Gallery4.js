@@ -1,6 +1,7 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import Link from "next/link"
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -37,7 +38,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Seamless Louver panels</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="seamless-louver-panels">Seamless Louver panels</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -51,7 +54,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Charcoal sheets</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="charcoal-sheets">Charcoal sheets</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -65,7 +70,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Mosaic panels</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="mosaic-panels">Mosaic panels</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -79,7 +86,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Ratan Cane rolls</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="ratan-cane-rolls">Ratan Cane rolls</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -93,7 +102,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Mirror engraved panels</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="mirror-engraved-panels">Mirror engraved panels</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -107,7 +118,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Wainscoting</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="wainscoting">Wainscoting</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -121,7 +134,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Gold Bar</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="gold-bar">Gold Bar</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -135,7 +150,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Alabaster</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="alabaster">Alabaster</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -149,7 +166,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Kork sheets</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="cork-sheets">Cork sheets</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -163,7 +182,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Charcofab fabric panels</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="charcofab-fabric-panels">Charcofab fabric panels</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -177,7 +198,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Fibre cement boards</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="fibre-cement-boards">Fibre cement boards</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -191,7 +214,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Terra blocks</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="terra-blocks">Terra blocks</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -205,7 +230,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Breeze blocks</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="breeze-blocks">Breeze blocks</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -219,7 +246,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Clayneer</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="clayneer">Clayneer</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -233,7 +262,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">HD-HMR Fluted Panels</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="hd-hmr-fluted-panels">HD-HMR Fluted Panels</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -247,7 +278,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">MDF Grill board</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="mdf-grill-board">MDF Grill board</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -261,7 +294,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">MDF wave board</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="mdf-wave-board">MDF wave board</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -275,7 +310,9 @@ export default function Gallery4() {
                                                     </div>
                                                     <div className="gallery-two__content">
                                                         <div className="gallery-two__title-box">
-                                                            <h3 className="gallery-two__title">Artificial Gardening</h3>
+                                                            <h3 className="gallery-two__title">
+                                                                <Link href="artificial-gardening">Artificial Gardening</Link>
+                                                            </h3>
                                                         </div>
                                                     </div>
                                                 </div>
