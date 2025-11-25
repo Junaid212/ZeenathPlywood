@@ -30,119 +30,120 @@ const projects = [
     { 
         title: "Hinges",
         link: "/hinges",
-        image: "assets/images/project/project-2-1.jpg"
+        image: "assets/images/hard/147.webp"
     },
     { 
         title: "Sliding & Folding Systems", 
         link: "/sliding-folding",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/148.webp"
     },
     { 
         title: "Wardrobe Accessories", 
         link: "/wardrobe-accessories",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/149.webp"
     },
     { 
         title: "Drawer Runners", 
         link: "/drawer-runners",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/150.webp"
     },
     { 
         title: "Kitchen Accessories", 
         link: "/kitchen-acc",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/191.webp"
     },
     { 
         title: "Profiles", 
         link: "/profiles",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/192.webp"
     },
     { 
         title: "Home Decor Handles", 
         link: "/home-decor-handles",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/193.webp"
     },
     { 
         title: "Wardrobe Handles", 
         link: "/wardrobe-handles",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/194.webp"
     },
     { 
         title: "Bed Fittings", 
         link: "/bed-fittings",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/195.webp"
     },
     { 
         title: "Sofa Legs", 
         link: "/sofa-legs",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/151.webp"
     },
     { 
         title: "Door Hinges",
         link: "/door-hinges",
-        image: "assets/images/project/project-2-1.jpg"
+        image: "assets/images/hard/152.webp"
     },
     { 
         title: "Door & Window Fittings", 
         link: "/door-window-fittings",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/153.webp"
     },
     { 
         title: "Mortice Locking Solutions", 
         link: "/mortice-locking-solutions",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/154.webp"
     },
     { 
         title: "Cylinder Locks", 
         link: "/cylinder-locks",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/155.webp"
     },
     { 
         title: "Floor Springs", 
         link: "/floor-springs",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/156.webp"
     },
     { 
         title: "Glass Patch Fittings", 
         link: "/glass-patch-fittings",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/157.webp"
     },
     { 
         title: "Digital Locking Solutions", 
         link: "/digital-locking-solutions",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/158.webp"
     },
     { 
         title: "Pull Handles", 
         link: "/pull-handles",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/159.webp"
     },
     { 
         title: "Rim Locks", 
         link: "/rim-locks",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/160.webp"
     },
     { 
         title: "Pad Locks", 
         link: "/pad-locks",
-        image: "assets/images/project/project-2-1.jpg"
+        image: "assets/images/hard/161.webp"
     },
     { 
         title: "Furniture Locks", 
         link: "/furniture-locks",
-        image: "assets/images/project/project-2-1.jpg"
+        image: "assets/images/hard/162.webp"
     },
     { 
         title: "Door Hooks", 
         link: "/door-hooks",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/163.webp"
     },
     { 
         title: "Safe Locks", 
         link: "/safe-locks",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/164.webp"
     }
 ];
+
 
 
 

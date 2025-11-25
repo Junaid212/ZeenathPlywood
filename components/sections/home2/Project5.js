@@ -30,94 +30,95 @@ const projects = [
     { 
         title: "Seamless Louver Panels",
         link: "/seamless-louver-panels",
-        image: "assets/images/project/project-4-1.jpg"
+        image: "assets/images/hard/165.webp"
     },
     { 
         title: "Charcoal Sheets",
         link: "/charcoal-sheets",
-        image: "assets/images/project/project-4-2.jpg"
+        image: "assets/images/hard/166.webp"
     },
     { 
         title: "Mosaic Panels",
         link: "/mosaic-panels",
-        image: "assets/images/project/project-4-3.jpg"
+        image: "assets/images/hard/167.webp"
     },
     { 
         title: "Ratan Cane Rolls",
         link: "/ratan-cane-rolls",
-        image: "assets/images/project/project-4-4.jpg"
+        image: "assets/images/hard/168.webp"
     },
     { 
         title: "Mirror Engraved Panels",
         link: "/mirror-engraved-panels",
-        image: "assets/images/project/project-4-5.jpg"
+        image: "assets/images/hard/169.webp"
     },
     { 
         title: "Wainscoting",
         link: "/wainscoting",
-        image: "assets/images/project/project-4-6.jpg"
+        image: "assets/images/hard/170.webp"
     },
     { 
         title: "Gold Bar",
         link: "/gold-bar",
-        image: "assets/images/project/project-4-7.jpg"
+        image: "assets/images/hard/171.webp"
     },
     { 
         title: "Alabaster",
         link: "/alabaster",
-        image: "assets/images/project/project-4-8.jpg"
+        image: "assets/images/hard/172.webp"
     },
     { 
-        title: "Kork Sheets",
-        link: "/kork-sheets",
-        image: "assets/images/project/project-4-9.jpg"
+        title: "Cork Sheets",
+        link: "/cork-sheets",
+        image: "assets/images/hard/173.webp"
     },
     { 
         title: "CharcoFab Fabric Panels",
         link: "/charcofab-fabric-panels",
-        image: "assets/images/project/project-4-10.jpg"
+        image: "assets/images/hard/187.webp"
     },
     { 
         title: "Fibre Cement Boards",
         link: "/fibre-cement-boards",
-        image: "assets/images/project/project-4-11.jpg"
+        image: "assets/images/hard/188.webp"
     },
     { 
         title: "Terra Blocks",
         link: "/terra-blocks",
-        image: "assets/images/project/project-4-12.jpg"
+        image: "assets/images/hard/189.webp"
     },
     { 
         title: "Breeze Blocks",
         link: "/breeze-blocks",
-        image: "assets/images/project/project-4-13.jpg"
+        image: "assets/images/hard/190.webp"
     },
     { 
         title: "Clayneer",
         link: "/clayneer",
-        image: "assets/images/project/project-4-14.jpg"
+        image: "assets/images/hard/174.webp"
     },
     { 
         title: "HD-HMR Fluted Panels",
         link: "/hd-hmr-fluted-panels",
-        image: "assets/images/project/project-4-15.jpg"
+        image: "assets/images/hard/175.webp"
     },
     { 
         title: "MDF Grill Board",
         link: "/mdf-grill-board",
-        image: "assets/images/project/project-4-16.jpg"
+        image: "assets/images/hard/176.webp"
     },
     { 
         title: "MDF Wave Board",
         link: "/mdf-wave-board",
-        image: "assets/images/project/project-4-17.jpg"
+        image: "assets/images/hard/177.webp"
     },
     { 
         title: "Artificial Gardening",
         link: "/artificial-gardening",
-        image: "assets/images/project/project-4-18.jpg"
+        image: "assets/images/hard/178.webp"
     }
 ];
+
 
 
 

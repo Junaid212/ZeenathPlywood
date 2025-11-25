@@ -15,7 +15,7 @@ return (
     <section className="project-details" style={{paddingBottom:'300px'}}>
         <div className="container">
             <div className="project-details__img">
-                <img src="assets/images/project/project-details-img-1.jpg" alt="Artificial Gardening"/>
+                <img src="assets/images/hard/146.webp" alt="Artificial Gardening"/>
                 <div className="project-details__information">
                     <div className="project-details__information-minus"></div>
                     <h3 className="project-details__information-title">Technical Specifications</h3><br/>

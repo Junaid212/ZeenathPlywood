@@ -14,7 +14,7 @@ return (
     <section className="project-details" style={{paddingBottom:'250px'}}>
         <div className="container">
             <div className="project-details__img">
-                <img src="assets/images/project/project-details-img-1.jpg" alt="Gold Bar"/>
+                <img src="assets/images/hard/139.webp" alt="Gold Bar"/>
                 <div className="project-details__information">
                     <div className="project-details__information-minus"></div>
                     <h3 className="project-details__information-title">Technical Specifications</h3><br/>

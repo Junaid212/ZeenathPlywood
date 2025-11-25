@@ -30,39 +30,40 @@ const projects = [
     { 
         title: "Acrylic sheets",
         link: "/mr-grade",
-        image: "assets/images/project/project-2-1.jpg"
+        image: "assets/images/hard/63.webp"
     },
     { 
         title: "Pvc", 
         link: "/marine-grade",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/64.webp"
     },
     { 
         title: "1.25mm Laminate",
         link: "/bwp-grade",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/65.webp"
     },
     { 
         title: "1mm Laminate",
         link: "/fire-retardant",
-        image: "assets/images/project/project-2-1.jpg"
+        image: "assets/images/hard/66.webp"
     },
     { 
         title: "0.8mm Laminate",
         link: "/products/is-1659-block-board",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/67.webp"
     },
     { 
         title: "Liner Laminate",
         link: "/shuttering-grade",
-        image: "assets/images/project/project-2-3.jpg"
+        image: "assets/images/hard/68.webp"
     },
     { 
         title: "Hylam",
         link: "/chequered-truck-flooring",
-        image: "assets/images/project/project-2-1.jpg"
+        image: "assets/images/hard/69.webp"
     }
 ];
+
 
 
 export default function Project2() {
@@ -102,7 +103,7 @@ export default function Project2() {
                                                     </h5>
                                                 </div>
                                                 <div className="project-two__arrow">
-                                                    <Link href={project.image} className="img-popup">
+                                                    <Link href={project.link} className="img-popup">
                                                         <span className="icon-dabble-arrow-right"></span>
                                                     </Link>
                                                 </div>

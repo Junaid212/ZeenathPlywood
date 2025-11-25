@@ -30,17 +30,17 @@ const projects = [
     { 
         title: "Natural Veneer",
         link: "/natural",
-        image: "assets/images/project/project-2-1.jpg"
+        image: "assets/images/hard/70.webp"
     },
     { 
         title: "Recon Veneer", 
         link: "/recon",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/71.webp"
     },
     { 
         title: "Stone Veneer", 
         link: "/stone-veneer",
-        image: "assets/images/project/project-2-2.jpg"
+        image: "assets/images/hard/72.webp"
     }
 ];
 
@@ -82,7 +82,7 @@ export default function Project3() {
                                                     </h5>
                                                 </div>
                                                 <div className="project-two__arrow">
-                                                    <Link href={project.image} className="img-popup">
+                                                    <Link href={project.link} className="img-popup">
                                                         <span className="icon-dabble-arrow-right"></span>
                                                     </Link>
                                                 </div>

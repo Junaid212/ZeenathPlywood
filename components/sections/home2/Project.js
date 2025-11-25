@@ -131,7 +131,7 @@ export default function Project() {
                                                     </h5>
                                                 </div>
                                                 <div className="project-two__arrow">
-                                                    <Link href={project.image} className="img-popup">
+                                                    <Link href={project.link} className="img-popup">
                                                         <span className="icon-dabble-arrow-right"></span>
                                                     </Link>
                                                 </div>

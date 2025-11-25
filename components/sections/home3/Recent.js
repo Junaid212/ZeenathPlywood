@@ -11,7 +11,7 @@ export default function Recent() {
                     <div className="section-title__tagline-box" style={{marginTop:'170px'}}>
                         <span className="section-title__tagline"></span>
                     </div>
-                    <h2 className="section-title__title">Our Advantages</h2>
+                    <h2 className="section-title__title">Our Key Strengths</h2>
                 </div>
                 <ul className="recent-project__list-box list-unstyled">
                     <li className="wow fadeInUp" data-wow-delay="100ms">
