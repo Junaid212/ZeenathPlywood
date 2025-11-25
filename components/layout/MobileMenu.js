@@ -48,7 +48,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul> */}
                                     {/* <button className={isActive.key == 1 ? "expanded open" : ""} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
-                                <li><Link href="/about/">About</Link></li>
+                                <li><Link href="about">About</Link></li>
                                 {/* <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">Pages</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 
                                         <li><Link href="team">Team</Link></li>
@@ -60,7 +60,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul>
                                     <button className={isActive.key == 2 ? "expanded open" : ""} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></button>
                                 </li> */}
-                                <li ><Link href="services">Products</Link>
+                                <li ><Link href="products">Products</Link>
                                     {/* <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>                                 
                                         <li><Link href="services">Services</Link></li>
                                         <li><Link href="service-details">Services Details</Link></li>
@@ -81,7 +81,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul>
                                     <button className={isActive.key == 5 ? "expanded open" : ""} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></button>
                                 </li> */}
-                                <li><Link href="/contact">Contact</Link></li>
+                                <li><Link href="contact">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
