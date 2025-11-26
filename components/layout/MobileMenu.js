@@ -32,7 +32,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <span className="mobile-nav__close mobile-nav__toggler" onClick={handleMobileMenu} ><i className="fa fa-times"></i></span>
 
                     <div className="logo-box">
-                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/zeenath-logo.png" width="150" alt="" /></Link>
+                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/z-logo-w.png" width="150" alt="" /></Link>
                     </div>
 
                     <div className="mobile-nav__container">
@@ -88,19 +88,17 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <ul className="mobile-nav__contact list-unstyled">
                         <li>
                             <i className="fa fa-envelope"></i>
-                            <Link href="mailto:needhelp@elitecons.com">needhelp@elitecons.com</Link>
+                            <Link href="mailto:zeenathplywood@gmail.com">zeenathplywood@gmail.com</Link>
                         </li>
                         <li>
                             <i className="fa fa-phone-alt"></i>
-                            <Link href="tel:666-888-0000">666 888 0000</Link>
+                            <Link href="+91 96 06 260928">+91 96 06 260928</Link>
                         </li>
                     </ul>
                     <div className="mobile-nav__top">
                         <div className="mobile-nav__social">
-                            <Link href="#" className="fab fa-twitter"></Link>
-                            <Link href="#" className="fab fa-facebook-square"></Link>
-                            <Link href="#" className="fab fa-pinterest-p"></Link>
-                            <Link href="#" className="fab fa-instagram"></Link>
+                            <Link href="https://www.facebook.com/p/Zeenath-Plywood-61564139555929/" target="blank"><i className="icon-facebook"></i></Link>
+                                        <Link href="https://www.instagram.com/zeenathplywoodmangalore/" target="blank"><i className="icon-instagram"></i></Link>
                         </div>
                     </div>
                 </div>

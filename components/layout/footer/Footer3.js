@@ -14,7 +14,7 @@ export default function Footer3() {
                         <div className="row">
                             <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                 <div className="footer-widget-three__column footer-widget-three__about">
-                                    <div className="footer-widget-three__logo">
+                                    <div className="footer-widget-three__logo ">
                                         <Link href="/"><img src="assets/images/resources/z-logo-w.png"
                                                 alt=""/></Link>
                                     </div>
@@ -35,7 +35,8 @@ export default function Footer3() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            
+                            <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp hide-mobile" data-wow-delay="200ms" >
                                 <div className="footer-widget-three__column footer-widget-three__link">
                                     <div className="footer-widget-three__title-box">
                                         <h3 className="footer-widget-three__title">Quick Links</h3>
@@ -59,7 +60,7 @@ export default function Footer3() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                            <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp hide-mobile" data-wow-delay="300ms">
                                 <div className="footer-widget-three__column footer-widget-three__page">
                                     <div className="footer-widget-three__title-box">
                                         <h3 className="footer-widget-three__title">Categories</h3>
@@ -69,21 +70,21 @@ export default function Footer3() {
                                             <Link href="plywood">Plywood</Link>
                                         </li>
                                         <li>
-                                            <Link href="contact">Laminates</Link>
+                                            <Link href="laminates">Laminates</Link>
                                         </li>
                                         <li>
-                                            <Link href="testimonials">Veneer</Link>
+                                            <Link href="veneer">Veneer</Link>
                                         </li>
                                         <li>
-                                            <Link href="about">Hardware</Link>
+                                            <Link href="hardware">Hardware</Link>
                                         </li>
                                         <li>
-                                            <Link href="gallery">Decorative Panels</Link>
+                                            <Link href="decorative-panels">Decorative Panels</Link>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                            <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms" >
                                 <div className="footer-widget-three__column footer-widget-three__contact">
                                     <div className="footer-widget-three__title-box">
                                         <h3 className="footer-widget-three__title">Contact</h3>

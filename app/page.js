@@ -23,9 +23,9 @@ export default function Home() {
                 <Banner />
                 <Services />
                 <About />
-                
-                <Services2 />
                 <Counter />
+                <Services2 />
+                
                 <Recent />
                 <Whycoose />
                 {/* <Counter /> */}

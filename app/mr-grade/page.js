@@ -50,7 +50,7 @@ export default function Home() {
                      this plywood offers excellent durability, smooth finishing, and strong bonding — all at an <br/>
                      affordable price. If you're looking for reliable plywood for home or office interiors, MR Grade is<br/>
                       one of the best options available.</p>
-                    <h3 className="project-details__title-2">What Is MR Grade Plywood?</h3>
+                    {/* <h3 className="project-details__title-2">What Is MR Grade Plywood?</h3>
                     <p className="project-details__text-2">MR stands for Moisture Resistant. This plywood is manufactured using premium-quality <br/>
                     hardwood or mixed wood veneers, bonded with Urea Formaldehyde resin, giving it superior<br/> strength and resistance to humidity.</p>
                     <p className="project-details__text-3">It is widely preferred for interior carpentry, especially in areas where water contact is minimal<br/> but humidity is present. </p>
@@ -85,50 +85,11 @@ export default function Home() {
                                             <p>Affordable – Best budget-friendly plywood option for interiors</p>
                                         </li>
                                     </ul>
-                                    {/* <div className="project-details__client-box">
-                                        <div className="project-details__client-img">
-                                            <img src="assets/images/blog/2.png" alt=""/>
-                                        </div>
-                                        <div className="project-details__client-content">
-                                            <h3>Why Choose MR Grade Plywood for Your Project?</h3>
-                                            <p>If you need a cost-effective and reliable plywood for indoor applications, MR Grade Plywood delivers the ideal balance of price, strength, and moisture resistance.
-                                                 It’s the perfect choice for carpenters, interior designers, and homeowners who want durable interiors without overspending.
-                                            </p>
-                                        </div>
-                                    </div> */}
+                                    
                                 </div>
                             </div>
-                            {/* <div className="col-xl-4 col-lg-5">
-                                <div className="project-details__bottom-right">
-                                    <div className="project-details__information">
-                        <div className="project-details__information-minus"></div>
-                        <h3 className="project-details__information-title">Applications of MR Grade Plywood</h3>
-                        <p className="project-details__information-text">MR Plywood is widely used across homes, offices, and commercial projects, including:</p>
-                        <ul className="project-details__information-list list-unstyled">
-                            <li>
-                                <p><span>Interior furniture</span></p>
-                            </li>
-                            <li>
-                                <p><span>Wardrobes and cupboards</span></p>
-                            </li>
-                            <li>
-                                <p><span>Office tables and workstations</span></p>
-                            </li>
-                            <li>
-                                <p><span>Wall paneling</span></p>
-                            </li>
-                            <li>
-                                <p><span>Shelving and storage units</span></p>
-                            </li>
-                            <li>
-                                <p><span>Partitions and room dividers</span></p>
-                            </li>
-                        </ul>
-                    </div>
-                                </div>
-                            </div> */}
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

@@ -47,6 +47,7 @@ export default function Home() {
                             </li>
                         </ul>
                     </div>
+                   
                 </div>
                 <div className="project-details__content">
                     <h3 className="project-details__title">IS-10701 – BWP Grade Plywood<br/><small> (Boiling Water Proof)</small></h3>
@@ -118,6 +119,16 @@ export default function Home() {
                         </div>
                     </div> */}
                 </div>
+                 <style>{`@media (max-width: 768px) {
+  .project-details__information {
+    margin-top: -120px !important;
+    margin-bottom: 180px !important;
+  }
+    .project-details__content{
+    margin-bottom: 680px !important;
+    }
+    
+}`}</style>
             </div>
         </section>
         {/*Project Details End*/}

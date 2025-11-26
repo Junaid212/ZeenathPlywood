@@ -23,7 +23,7 @@ export default function Services() {
                             <div className="services-five__icon">
                                 <span className="icon-proconstruct"></span>
                             </div>
-                            <h3 className="services-five__title"><Link href="#">Variety & Choice</Link></h3>
+                            <h3 className="services-five__title"><Link href="#">Multiple Options for Every Need</Link></h3>
                         </div>
                     </div>
                     {/*Services Five Single End*/}
@@ -33,7 +33,7 @@ export default function Services() {
                             <div className="services-five__icon">
                                 <span className="icon-constructo-pro"></span>
                             </div>
-                            <h3 className="services-five__title"><Link href="#">Reliability & Expertise</Link></h3>
+                            <h3 className="services-five__title"><Link href="#">Reliability and Expertise</Link></h3>
                         </div>
                     </div>
                     {/*Services Five Single End*/}

@@ -113,6 +113,12 @@ export default function Home() {
                         </div>
                     </div> */}
                 </div>
+                <style>{`@media (max-width: 768px) {
+  .project-details__information {
+    margin-top: 20px !important;
+    margin-bottom: 180px !important;
+  }
+}`}</style>
             </div>
         </section>
         {/*Project Details End*/}

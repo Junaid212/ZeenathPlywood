@@ -10,49 +10,49 @@ export default function Counter() {
                     <ul className="counter-three__count-list list-unstyled">
                         <li>
                             <div className="counter-three__big-count count-box">
-                            <CounterUp end={200} />
+                            <CounterUp end={25} />
                                 <span>+</span>
                             </div>
                             <div className="counter-three__count count-box">
-                            <CounterUp end={200} />
+                            <CounterUp end={25} />
                                 <span>+</span>
                             </div>
-                            <p className="counter-three__text">Team <br/>member</p>
+                            <p className="counter-three__text">Years <br/>of Experience</p>
                         </li>
                         <li>
                             <div className="counter-three__big-count count-box">
-                            <CounterUp end={20} />
+                            <CounterUp end={100} />
                                 <span>+</span>
                             </div>
                             <div className="counter-three__count count-box">
-                            <CounterUp end={20} />
+                            <CounterUp end={100} />
                                 <span>+</span>
                             </div>
-                            <p className="counter-three__text">Winning<br/> award</p>
+                            <p className="counter-three__text">Products</p>
                         </li>
                         <li>
                             <div className="counter-three__big-count count-box">
-                            <CounterUp end={30} />
+                            <CounterUp end={500} />
                                 <span>+</span>
                             </div>
                             <div className="counter-three__count count-box">
-                            <CounterUp end={30} />
+                            <CounterUp end={500} />
                                 <span>+</span>
                             </div>
-                            <p className="counter-three__text">Client<br/> review</p>
+                            <p className="counter-three__text">Projects</p>
                         </li>
                         <li>
                             <div className="counter-three__big-count count-box">
-                            <CounterUp end={10} />
+                            <CounterUp end={1} />
                                 <span>K</span>
                                 <span>+</span>
                             </div>
                             <div className="counter-three__count count-box">
-                            <CounterUp end={10} />
+                            <CounterUp end={1} />
                                 <span>K</span>
                                 <span>+</span>
                             </div>
-                            <p className="counter-three__text">Complete <br/>project</p>
+                            <p className="counter-three__text">Happy <br/>Clients</p>
                         </li>
                     </ul>
                 </div>
