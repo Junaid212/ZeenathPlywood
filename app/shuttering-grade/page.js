@@ -120,6 +120,18 @@ export default function Home() {
                 </div>
             </div>
         </section>
+        <style>{`@media (max-width: 768px) {
+    .project-details__img{
+    margin-top:-40px;
+    }
+    .project-details__content{
+    margin-top:-1030px !important;
+    
+    }
+    .project-details{
+    padding-bottom:400px;
+    }
+}`}</style>
         {/*Project Details End*/}
         <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
 <Project />

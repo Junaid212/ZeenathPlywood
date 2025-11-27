@@ -43,6 +43,15 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
+                 <style>{`@media (max-width: 768px) {
+  .project-details__information {
+    margin-top: 90px !important;
+    margin-bottom: 180px !important;
+  }
+    .project-details__img{
+    margin-top:-40px;
+    }
+}`}</style>
                 <div className="project-details__content">
                     <h3 className="project-details__title">MR Grade Plywood <br/><small>Moisture Resistant Plywood for Interior</small></h3>
                     <p className="project-details__text">MR Grade Plywood, also known as Commercial Plywood, is a popular choice for interior <br/>

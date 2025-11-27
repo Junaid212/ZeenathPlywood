@@ -11,7 +11,7 @@ export default function Home() {
         <>
         <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Block Board">      
         {/*Project Details Start*/}
-        <section className="project-details" style={{paddingBottom:'380px'}}>
+        <section className="project-details" style={{paddingBottom:'440px'}}>
             <div className="container">
                 <div className="project-details__img">
                     <img src="assets/images/blog/20.webp" alt=""/>
@@ -120,6 +120,18 @@ export default function Home() {
                 </div>
             </div>
         </section>
+        <style>{`@media (max-width: 768px) {
+  .project-details__information {
+    
+  }
+    .project-details__img{
+    margin-top:-40px;
+    }
+    .project-details__content{
+    margin-top:-1040px !important;
+    
+    }
+}`}</style>
         {/*Project Details End*/}
         <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
 <Project />

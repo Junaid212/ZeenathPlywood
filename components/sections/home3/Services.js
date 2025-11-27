@@ -4,9 +4,9 @@ export default function Services() {
     return (
         <>
         {/*Services Five Start */}
-        <section className="services-five">
+        <section className="services-five hide-mobile">
             <div className="container">
-                <div className="row" >
+                <div className="row" style={{marginTop:'50px'}}>
                     {/*Services Five Single Start*/}
                     <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" >
                         <div className="services-five__single" >

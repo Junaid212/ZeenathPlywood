@@ -105,7 +105,9 @@ export default function Footer3() {
                                             </div>
                                             <div className="content">
                                                 <span>Phone Number</span>
-                                                <p><Link href="tel:+91 96 06 260928">+91 96 06 260928</Link></p>
+                                                <p><Link href="https://wa.me/919606260928" target="_blank">
+        +91 96 06 260928
+    </Link></p>
                                             </div>
                                         </li>
                                         <li>
@@ -127,7 +129,7 @@ export default function Footer3() {
             <div className="site-footer-three__bottom">
                 <div className="container">
                     <div className="site-footer-three__bottom-inner">
-                        <p className="site-footer-three__bottom-text">© Bright Media 2025 | All Rights Reserved</p>
+                        <p className="site-footer-three__bottom-text">© <Link href="https://brightmedia.tech/" target="blank">Bright Media</Link> 2025 | All Rights Reserved</p>
                         {/* <ul className="list-unstyled site-footer-three__bottom-menu">
                             <li><Link href="about">Trams & Condition</Link></li>
                             <li><Link href="about">Privacy Policy</Link></li>

@@ -5,19 +5,21 @@ export default function Cta() {
         <>
         {/*CTA Two Start*/}
         <section className="cta-two">
-            <div className="cta-two__bg" style={{ backgroundImage: 'url(assets/images/backgrounds/15.png' }} ></div>
+            <div className="cta-two__bg" style={{ backgroundImage: 'url(assets/images/backgrounds/196.png' }} ></div>
             <div className="cta-two__wrap">
                 <div className="container">
                     <div className="cta-two__inner">
-                        <h3 className="cta-two__title">Get Started on Your Project<br/> Today</h3>
+                        <h3 className="cta-two__title">Get Started on Your Project Today</h3>
                         <div className="cta-two__call-box">
                             <div className="icon">
                                 <span className="icon-call"></span>
                             </div>
                             <div className="call-number">
-                                <Link href="tel:2055550100">+(205) 555-0100</Link>
-                                <Link href="tel:6035550123">+(603) 555-0123</Link>
-                            </div>
+    <Link href="https://wa.me/919606260928" target="_blank">
+        +91 96 06 260928
+    </Link>
+</div>
+
                         </div>
                     </div>
                 </div>

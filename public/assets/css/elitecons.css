@@ -1961,7 +1961,7 @@ ul {
 .main-menu-five__logo {
   position: relative;
   display: block;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 .main-menu-five__main-menu-box {
@@ -9687,11 +9687,11 @@ ul {
 .cta-two__inner {
   position: relative;
   display: block;
-  padding: 80px 0 80px;
+  padding: 40px 0 40px;
 }
 
 .cta-two__title {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 60px;
   color: var(--elitecons-white);
@@ -15593,6 +15593,8 @@ ul {
   content: "";
   position: absolute;
 }
+
+
 
 .project-details__information {
   position: absolute;

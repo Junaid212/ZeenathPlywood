@@ -11,7 +11,7 @@ export default function Home() {
         <>
         <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="BWP Grade">      
         {/*Project Details Start*/}
-        <section className="project-details">
+        <section className="project-details" style={{paddingBottom:'400px'}}>
             <div className="container">
                 <div className="project-details__img">
                     <img src="assets/images/blog/18.webp" alt=""/>
@@ -119,21 +119,23 @@ export default function Home() {
                         </div>
                     </div> */}
                 </div>
-                 <style>{`@media (max-width: 768px) {
+               <style>{`@media (max-width: 768px) {
   .project-details__information {
-    margin-top: -120px !important;
-    margin-bottom: 180px !important;
-  }
-    .project-details__content{
-    margin-bottom: 680px !important;
-    }
     
+  }
+    .project-details__img{
+    margin-top:-40px;
+    }
+    .project-details__content{
+    margin-top:-980px !important;
+    
+    }
 }`}</style>
             </div>
         </section>
         {/*Project Details End*/}
         <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
-<Project />
+<Project  />
 
         {/*CTA One Start*/}
         <section className="cta-one">

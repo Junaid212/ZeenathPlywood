@@ -303,7 +303,7 @@ export default function About() {
                     <div className="col-xl-6 col-lg-6">
                         <div className="faq-one__left">
                             <div className="section-title text-left">
-                                <div className="section-title__tagline-box" style={{marginTop:'80px'}}>
+                                <div className="section-title__tagline-box" style={{marginTop:'140px'}}>
                                     <span className="section-title__tagline">SOME fAQS</span>
                                 </div>
                                 <h2 className="section-title__title">Got Questions? We’ve Got Answers </h2>

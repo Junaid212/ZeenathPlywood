@@ -15,6 +15,14 @@ export default function About() {
                                 data-wow-duration="2500ms">
                                 <img src="assets/images/backgrounds/10.png" alt=""/>
                             </div>
+                            <style>{`
+                            @media (max-width: 768px) {
+  .about-three__left {
+    margin-top: 60px !important;
+  }
+}
+
+                            `}</style>
                         </div>
                     </div>
                     <div className="col-xl-6">
