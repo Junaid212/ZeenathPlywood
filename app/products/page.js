@@ -1,5 +1,6 @@
 'use client'
 import Layout from "@/components/layout/Layout"
+import SideButton from "@/components/layout/SideButton"
 import Gallery from "@/components/sections/home5/Gallery"
 import Work from "@/components/sections/home5/Work"
 import Link from "next/link"
@@ -9,6 +10,7 @@ export default function Home() {
         <>
             <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Products">
                 {/* Services Page Start */}
+                <SideButton/>
                 <Work />
 
                 <section className="services-page">

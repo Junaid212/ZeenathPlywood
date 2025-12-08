@@ -1,12 +1,13 @@
 
 import Layout from "@/components/layout/Layout"
+import SideButton from "@/components/layout/SideButton"
 import Link from "next/link"
 export default function Home() {
 
     return (
         <>
     <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Contact">
-        
+        <SideButton/>
         {/*Contact Page Start*/}
         <section className="contact-page">
             <div className="container">

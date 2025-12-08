@@ -12,7 +12,7 @@ export default function Video() {
                     <div className="video-one__inner">
                         <div className="video-one__shape-1"></div>
                         <div className="video-one__bg"
-                            style={{ backgroundImage: 'url(assets/images/backgrounds/200.png)' }} ></div>
+                            style={{ backgroundImage: 'url(assets/images/backgrounds/198.webp)' }} ></div>
 
                         <div className="video-one__content">
                             <h3 className="video-one__title">Design. Durability. Delivered.</h3>

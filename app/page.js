@@ -15,12 +15,15 @@ import About2 from "@/components/sections/home3/About2"
 import Team from "@/components/sections/home3/Team"
 import Brand from "@/components/sections/home3/Brand"
 import Cta from "@/components/sections/home3/Cta"
+import SideButton from "@/components/layout/SideButton"
 export default function Home() {
 
     return (
         <>
             <Layout headerStyle={5} footerStyle={3}>
+                <SideButton/>
                 <Banner />
+                
                 <Services />
                 <About />
                 <Counter />

@@ -121,7 +121,18 @@ export default function Home() {
         {/*Project Details End*/}
         <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
 <Project />
-
+ <style>
+{`
+  @media (max-width: 768px) {
+    .project-details__content {
+      margin-top: -970px !important;
+    }
+      .project-details__information {
+    // margin-bottom: 490px !important;
+  }
+  }
+`}
+</style>
         {/*CTA One Start*/}
         <section className="cta-one">
             <div className="container">

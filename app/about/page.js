@@ -4,6 +4,7 @@ import CounterUp from "@/components/elements/CounterUp"
 import Link from "next/link"
 import { useState } from 'react'
 import Team from "@/components/sections/home3/Team"
+import SideButton from "@/components/layout/SideButton"
 
 
 export default function About() {
@@ -29,6 +30,7 @@ export default function About() {
         <>
         <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="About Us">
         {/*About One Start */}
+        <SideButton/>
         <section className="about-one about-seven">
             <div className="container">
                 <div className="row">
