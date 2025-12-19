@@ -5,12 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
-    slidesPerView: 3,
-    spaceBetween: 0,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    slidesPerView: 2,
+    spaceBetween: 10,
     loop: true,
 
     // Navigation
@@ -24,8 +20,26 @@ const swiperOptions = {
         el: '.swiper-pagination',
         clickable: true,
     },
-}
 
+    // Responsive breakpoints
+    breakpoints: {
+        // When window width is >= 320px (mobile)
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        // When window width is >= 768px (tablet)
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+        },
+        // When window width is >= 1024px (desktop)
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        }
+    }
+}
 const projects = [
     { 
         title: "Hinges",
@@ -59,7 +73,7 @@ const projects = [
     },
     { 
         title: "Home Decor Handles", 
-        link: "/home-decor-handles",
+        link: "/home-decor",
         image: "assets/images/hard/193.webp"
     },
     { 
@@ -79,7 +93,7 @@ const projects = [
     },
     { 
         title: "Door Hinges",
-        link: "/door-hinges",
+        link: "/door-hinge",
         image: "assets/images/hard/152.webp"
     },
     { 
@@ -197,6 +211,18 @@ export default function Project4() {
                     </Swiper>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 767px) {
+    .project-two__img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+}
+                `}</style>
         </section>
         {/* Project Two End */}
         </>

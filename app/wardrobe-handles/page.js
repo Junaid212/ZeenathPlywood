@@ -54,6 +54,23 @@ export default function Home() {
                        areas, and walk-in wardrobes.</p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -60px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -900px !important;
+    margin-bottom: 650px !important;
+    }
+}
+                `}</style>
         </section>
 <Project4 />
         {/*CTA One Start*/}

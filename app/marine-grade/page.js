@@ -11,7 +11,7 @@ export default function Home() {
         <>
         <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Marine Grade">      
         {/*Project Details Start*/}
-        <section className="project-details">
+        <section className="project-details" style={{marginBottom:'50px'}}>
             <div className="container">
                 <div className="project-details__img">
                     <img src="assets/images/blog/17.webp" alt=""/>
@@ -115,21 +115,25 @@ export default function Home() {
                 </div>
                <style>{`@media (max-width: 768px) {
   .project-details__information {
-    margin-top: 10px !important;
-    margin-bottom: 280px !important;
+    margin-top: -30px !important;
+    margin-bottom: 180px !important;
   }
     .project-details__img{
     margin-top:-40px;
     }
+    .project-details{
+    margin-bottom: 170px !important;
+    }
+
 }`}</style>
             </div>
-        </section>
+        </section >
         {/*Project Details End*/}
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
+        {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} /> */}
 <Project />
 
         {/*CTA One Start*/}
-        <section className="cta-one">
+        {/* <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
@@ -149,7 +153,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*CTA One End*/}
         </Layout>
         </>

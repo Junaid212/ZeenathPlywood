@@ -6677,7 +6677,7 @@ ul {
 .project-two {
   position: relative;
   display: block;
-  padding: 0 0 120px;
+  padding: 0 0 70px;
 }
 
 .project-two__top {
@@ -14082,6 +14082,14 @@ ul {
   background-size: cover;
   background-position: center;
   z-index: -1;
+}
+@media (max-width:768px) {
+  .page-header__bg{
+    max-height: 300px !important;
+  }
+  .page-header{
+    padding: 149px 0 50px;
+  }
 }
 
 .page-header__inner {

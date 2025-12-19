@@ -119,11 +119,11 @@ export default function Home() {
     margin-top:-40px;
     }
     .project-details__content{
-    margin-top:-930px !important;
-    
+    margin-top:-950px !important;
+    margin-bottom:650px !important;
     }
     .project-details{
-    padding-bottom:400px;
+    // padding-bottom:450px;
     }
 }`}</style>
         {/*Project Details End*/}

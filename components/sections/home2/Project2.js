@@ -5,12 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
-    slidesPerView: 3,
-    spaceBetween: 0,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    slidesPerView: 2,
+    spaceBetween: 10,
     loop: true,
 
     // Navigation
@@ -24,6 +20,25 @@ const swiperOptions = {
         el: '.swiper-pagination',
         clickable: true,
     },
+
+    // Responsive breakpoints
+    breakpoints: {
+        // When window width is >= 320px (mobile)
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        // When window width is >= 768px (tablet)
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+        },
+        // When window width is >= 1024px (desktop)
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        }
+    }
 }
 
 const projects = [
@@ -49,7 +64,7 @@ const projects = [
     },
     { 
         title: "0.8mm Laminate",
-        link: "/products/is-1659-block-board",
+        link: "/0-8-mm-laminates",
         image: "assets/images/hard/67.webp"
     },
     { 
@@ -116,6 +131,18 @@ export default function Project2() {
                     </Swiper>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-two__img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+}
+                `}</style>
         </section>
         {/* Project Two End */}
         </>

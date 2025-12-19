@@ -61,6 +61,23 @@ export default function Home() {
                      residential and commercial interiors.</p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -60px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -1140px !important;
+    margin-bottom: 700px !important;
+    }
+}
+                `}</style>
         </section>
 <Project4 />
         {/*CTA One Start*/}

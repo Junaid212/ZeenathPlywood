@@ -50,13 +50,30 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="project-details__content">
-                    <h3 className="project-details__title">Door Hinges – Strong, Durable<br/> & Smooth-Operating Hardware <br/>or Doors</h3>
+                    <h3 className="project-details__title">Door Hinges – Strong, Durable<br/> & Smooth-Operating Hardware</h3>
                     <p className="project-details__text">Door Hinges are essential mechanical fittings used to connect a door to its frame, allowing<br/>
                      smooth opening and closing. Made from high-strength metals like stainless steel, brass,<br/>
                       and mild steel, door hinges ensure stability, safety, and long-lasting performance in residential,<br/>
                        commercial, and industrial doors.</p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -60px;
+    }
+    .project-details__information{
+    margin-top: 100px !important;
+    }
+    .project-details__content{
+    margin-top: -960px !important;
+    margin-bottom: 630px !important;
+    }
+}
+                `}</style>
         </section>
 <Project4 />
         {/*CTA One Start*/}

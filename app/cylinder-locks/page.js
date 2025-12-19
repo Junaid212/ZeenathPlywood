@@ -57,6 +57,23 @@ export default function Home() {
                       cylinder locks are widely used in residential, commercial, and industrial doors.</p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -60px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -1080px !important;
+    margin-bottom: 780px !important;
+    }
+}
+                `}</style>
         </section>
         <Project4 />
         </Layout>

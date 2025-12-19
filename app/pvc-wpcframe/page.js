@@ -15,7 +15,7 @@ export default function Home() {
             <div className="container">
                 <div className="project-details__img">
                     <img src="assets/images/blog/26.webp" alt=""/>
-                    <div className="project-details__information">
+                    <div className="project-details__information" id="project-pvc">
                         <div className="project-details__information-minus"></div>
                         <h3 className="project-details__information-title">Technical Specifications</h3>
                         <p className="project-details__information-text"></p>
@@ -55,7 +55,7 @@ export default function Home() {
                      durable, and maintenance-free alternatives to traditional wooden door frames. Designed to<br/> 
                      withstand moisture, termites, and weather changes, these frames ensure long-lasting <br/>
                      performance in both residential and commercial spaces.</p>
-                    <h3 className="project-details__title-2">Technical Specifications of WPC Frame</h3>
+                    
                     {/* <p className="project-details__text-2">Aliquam eros justo, posuere loborti viverra laoreet matti
                         ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoree augue mattis
                         fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti
@@ -69,6 +69,7 @@ export default function Home() {
                         <div className="row">
                             <div className="col-xl-8 col-lg-7">
                                 <div className="project-details__bottom-left">
+                                    <h3 className="project-details__title-2">Technical Specifications of WPC Frame</h3>
                                     <ul className="project-details__bottom-points list-unstyled">
                                         <li>
     <p>✔<span style={{color:'#06A6A1', fontWeight:'600'}}>Material:</span> Wood Fiber + PVC Polymer</p>
@@ -93,45 +94,33 @@ export default function Home() {
 </li>
 
                                     </ul>
-                                    {/* <div className="project-details__client-box">
-                                        <div className="project-details__client-img">
-                                            <img src="assets/images/project/project-details-client-img.jpg" alt=""/>
-                                        </div>
-                                        <div className="project-details__client-content">
-                                            <h3>Stanio lainto</h3>
-                                            <p>justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra
-                                                liquam eros justo, posuere lobortis non, viverra laoreet augue mattis.
-                                            </p>
-                                        </div>
-                                    </div> */}
                                 </div>
                             </div>
-                             {/* <div className="col-xl-4 col-lg-5">
-                                <div className="project-details__bottom-right">
-                                    <div className="project-details__bottom-img">
-                                        <img src="assets/images/project/project-details-bottom-img.jpg" alt=""/>
-                                        <div className="project-details__video-link">
-                                            <a onClick={() => setOpen(true)} className="video-popup">
-                                                <div className="project-details__video-icon">
-                                                    <span className="icon-play"></span>
-                                                    <i className="ripple"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </div>
             </div>
+            <style>{`
+            @media(max-width:768px){
+            .project-details__img{
+            margin-top:-60px;
+            }
+            .project-details__content{
+            margin-top:-900px !important;
+            margin-bottom: -10px;
+            }
+            .project-details__bottom{
+            margin-top:690px;
+            }
+            }
+            `}</style>
         </section>
         {/*Project Details End*/}
         {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} /> */}
 
 <Project />
         {/*CTA One Start*/}
-        <section className="cta-one">
+        {/* <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
@@ -151,7 +140,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*CTA One End*/}
         </Layout>
         </>

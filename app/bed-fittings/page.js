@@ -53,6 +53,23 @@ export default function Home() {
                        and commercial furniture.</p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -60px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -930px !important;
+    margin-bottom: 550px !important;
+    }
+}
+                `}</style>
         </section>
 <Project4 />
         {/*CTA One Start*/}

@@ -4,6 +4,7 @@ import ModalVideo from 'react-modal-video'
 import { useState } from 'react'
 import Project from "@/components/sections/home2/Project"
 import Project2 from "@/components/sections/home2/Project2"
+import Project4 from "@/components/sections/home2/Project4"
 
 export default function Home() {
 
@@ -55,8 +56,25 @@ export default function Home() {
                        while ensuring smooth door operation.</p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -60px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -970px !important;
+    margin-bottom: 650px !important;
+    }
+}
+                `}</style>
         </section>
-        <Project2 />
+        <Project4 />
         </Layout>
         </>
     )

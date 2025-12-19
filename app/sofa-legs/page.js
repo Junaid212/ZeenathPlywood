@@ -54,6 +54,23 @@ export default function Home() {
                        functionality of residential and commercial furniture.</p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -60px;
+    }
+    .project-details__information{
+    margin-top: 100px !important;
+    }
+    .project-details__content{
+    margin-top: -930px !important;
+    margin-bottom: 600px !important;
+    }
+}
+                `}</style>
         </section>
 <Project4 />
         {/*CTA One Start*/}

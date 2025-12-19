@@ -61,60 +61,7 @@ export default function Home() {
                     <p className="project-details__text-3">Aliquam eros justo, posuere loborti vive rra laoreet matti ullamc
                         orper posu ere viverra .Aliquam eros justo, posuere lobo, vive rra laoreet augue mattis
                         fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet mat
-                        ullamcorper posue viverra .Aliquam. </p>
-                    <div className="project-details__bottom">
-                        <div className="row">
-                            <div className="col-xl-8 col-lg-7">
-                                <div className="project-details__bottom-left">
-                                    <ul className="project-details__bottom-points list-unstyled">
-                                        <li>
-                                            <div className="project-details__points-bullet"></div>
-                                            <p>We are starting some laoreet matti ullamcorper mat ulla posue viverra</p>
-                                        </li>
-                                        <li>
-                                            <div className="project-details__points-bullet"></div>
-                                            <p>Starting some laoreetmat ullamcorper posue viverra .Aliquam eros</p>
-                                        </li>
-                                        <li>
-                                            <div className="project-details__points-bullet"></div>
-                                            <p>Here is the biggest loborti vivea laoreet matti statemat ullamcorper
-                                                posue </p>
-                                        </li>
-                                        <li>
-                                            <div className="project-details__points-bullet"></div>
-                                            <p>Aliquam eros justo, posuere loborti robart that </p>
-                                        </li>
-                                    </ul>
-                                    <div className="project-details__client-box">
-                                        <div className="project-details__client-img">
-                                            <img src="assets/images/project/project-details-client-img.jpg" alt=""/>
-                                        </div>
-                                        <div className="project-details__client-content">
-                                            <h3>Stanio lainto</h3>
-                                            <p>justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra
-                                                liquam eros justo, posuere lobortis non, viverra laoreet augue mattis.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-4 col-lg-5">
-                                <div className="project-details__bottom-right">
-                                    <div className="project-details__bottom-img">
-                                        <img src="assets/images/project/project-details-bottom-img.jpg" alt=""/>
-                                        <div className="project-details__video-link">
-                                            <a onClick={() => setOpen(true)} className="video-popup">
-                                                <div className="project-details__video-icon">
-                                                    <span className="icon-play"></span>
-                                                    <i className="ripple"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
+                        ullamcorper posue viverra .Aliquam. </p>*/}
                 </div>
             </div>
         </section>
@@ -124,17 +71,18 @@ export default function Home() {
  <style>
 {`
   @media (max-width: 768px) {
+  .project-details__img{
+  margin-top:-60px !important;
+  }
     .project-details__content {
       margin-top: -970px !important;
+      margin-bottom: 820px !important;
     }
-      .project-details__information {
-    // margin-bottom: 490px !important;
-  }
   }
 `}
 </style>
         {/*CTA One Start*/}
-        <section className="cta-one">
+        {/* <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
@@ -154,7 +102,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*CTA One End*/}
         </Layout>
         </>

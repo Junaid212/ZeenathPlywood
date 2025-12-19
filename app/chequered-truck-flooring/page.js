@@ -123,14 +123,14 @@ export default function Home() {
         </section>
         <style>{`@media (max-width: 768px) {
     .project-details__img{
-    margin-top:-40px;
+    margin-top:-50px;
     }
     .project-details__content{
-    margin-top:-1030px !important;
-    
+    margin-top:-1140px !important;
+    margin-bottom: 900px;
     }
-    .project-details{
-    padding-bottom:400px;
+    .project-details__information{
+    margin-top:150px !important
     }
 }`}</style>
         {/*Project Details End*/}

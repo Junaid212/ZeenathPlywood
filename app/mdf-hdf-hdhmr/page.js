@@ -13,9 +13,9 @@ export default function Home() {
         {/*Project Details Start*/}
         <section className="project-details">
             <div className="container">
-                <div className="project-details__img">
+                <div className="project-details__img" >
                     <img src="assets/images/blog/25.webp" alt=""/>
-                    <div className="project-details__information">
+                    <div className="project-details__information" id="project-details-info">
                         <div className="project-details__information-minus"></div>
                         <h3 className="project-details__information-title">MDF Specifications</h3>
                         <p className="project-details__information-text"></p>
@@ -48,7 +48,7 @@ export default function Home() {
                     <h3 className="project-details__title">MDF / HDF / HDHMR – <br/><small>Premium Engineered Wood Solutions</small></h3>
                     <p className="project-details__text">Engineered wood panels like MDF, HDF, and HDHMR are widely used in modern furniture, <br/>
                     modular kitchens, wardrobes, and interior décor. Each of these boards offers unique advantages <br/>in terms of density, durability, workability, and moisture resistance.</p>
-                    <h3 className="project-details__title-2">HDF Specifications</h3>
+                    
                     {/* <p className="project-details__text-2">Aliquam eros justo, posuere loborti viverra laoreet matti
                         ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoree augue mattis
                         fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti
@@ -58,10 +58,11 @@ export default function Home() {
                         orper posu ere viverra .Aliquam eros justo, posuere lobo, vive rra laoreet augue mattis
                         fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet mat
                         ullamcorper posue viverra .Aliquam. </p> */}
-                    <div className="project-details__bottom">
+                    <div className="project-details__bottom" id="project-hdf">
                         <div className="row">
                             <div className="col-xl-8 col-lg-7">
                                 <div className="project-details__bottom-left">
+                                    <h3 className="project-details__title-2" id="title-2">HDF Specifications</h3>
                                     <ul className="project-details__bottom-points list-unstyled">
                                        <li>
     <p>✔<span style={{color:'#06A6A1', fontWeight:'600'}}>Density:</span> High</p>
@@ -94,7 +95,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-5">
-                                <div className="project-details__bottom-right">
+                                <div className="project-details__bottom-right" id="project-hdhmr">
                                     <div className="project-details__information" style={{marginTop:'-400px'}}>
                         <div className="project-details__information-minus"></div>
                         <h3 className="project-details__information-title">HDHMR Specifications</h3>
@@ -118,6 +119,26 @@ export default function Home() {
 
                         </ul>
                     </div>
+                    <style>{`
+                    @media(max-width:768px){
+                    .project-details__img{
+                    margin-top: -60px;
+                    }
+                    .project-details__content{
+                    margin-top:-780px !important;
+                    margin-bottom:250px !important;
+                    }
+                    #project-details-info{
+                    // margin-top:-120px !important;
+                    }
+                    #project-hdf{
+                    margin-top: 540px !important;
+                    }
+                    #project-hdhmr{
+                    margin-top: -400px !important;
+                    }
+                    }
+                    `}</style>
                                 </div>
                             </div>
                         </div>
@@ -125,25 +146,8 @@ export default function Home() {
                 </div>
             </div>
         </section>
-        <style>{`@media (max-width: 768px) {
-    .project-details__img{
-    margin-top:-40px;
-    }
-    .project-details__content{
-    margin-top:-730px !important;
-    margin-bottom:200px !important;
-    
-    }
-    .project-details{
-    padding-bottom:100px;
-    paddind-top: -200px;
-    }
-    .project-details__information{
-    margin-top: 100px;
-    }
-}`}</style>
         {/*Project Details End*/}
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
+        {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} /> */}
 <Project />
 
         {/*CTA One Start*/}

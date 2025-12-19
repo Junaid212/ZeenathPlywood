@@ -49,7 +49,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="project-details__content">
-                    <h3 className="project-details__title">IS 4990 – Shuttering Grade<br/> Plywood<small> (High-Density Film Faced<br/> Plywood)</small></h3>
+                    <h3 className="project-details__title">IS 4990 – Shuttering Grade<br/> Plywood<small><br/> (High-Density Film Faced Plywood)</small></h3>
                     <p className="project-details__text">IS 4990 Shuttering Grade Plywood is a high-strength, high-density plywood specially designed<br/>
                      for concrete formwork applications. Manufactured as per the Indian Standard IS:4990, this<br/>
                       plywood offers outstanding load-bearing capacity and ensures smooth, uniform concrete <br/>
@@ -122,14 +122,14 @@ export default function Home() {
         </section>
         <style>{`@media (max-width: 768px) {
     .project-details__img{
-    margin-top:-40px;
+    margin-top:-60px;
     }
     .project-details__content{
-    margin-top:-1030px !important;
-    
+    margin-top:-1070px !important;
+    margin-bottom: 900px;
     }
-    .project-details{
-    padding-bottom:400px;
+    .project-details__information{
+    margin-top:120px !important;
     }
 }`}</style>
         {/*Project Details End*/}

@@ -2,15 +2,14 @@
 import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
-    slidesPerView: 3,
-    spaceBetween: 0,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    slidesPerView: 2,
+    spaceBetween: 10,
     loop: true,
 
     // Navigation
@@ -24,6 +23,25 @@ const swiperOptions = {
         el: '.swiper-pagination',
         clickable: true,
     },
+
+    // Responsive breakpoints
+    breakpoints: {
+        // When window width is >= 320px (mobile)
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        // When window width is >= 768px (tablet)
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+        },
+        // When window width is >= 1024px (desktop)
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        }
+    }
 }
 
 const projects = [
@@ -105,7 +123,7 @@ export default function Project() {
                         <div className="section-title__tagline-box">
                             {/* <span className="section-title__tagline">Our Latest portfolio</span> */}
                         </div>
-                        <h2 className="section-title__title">Other</h2>
+                        <h2 className="section-title__title" style={{marginBottom:'-220px !important'}}>Other </h2>
                     </div>
                     <div className="project-two__nav">
                         <div className="swiper-button-prev1 h1p">
@@ -117,32 +135,42 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="project-two__bottom">
-                    <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
-                        <div className="swiper-wrapper">
-                            {projects.map((project, index) => (
-                                <SwiperSlide key={index}>
-                                    <div className="project-two__single">
-                                        <div className="project-two__img">
-                                            <img src={project.image} alt={project.title}/>
-                                            <div className="project-two__content">
-                                                <div className="project-two__title-box">
-                                                    <h5 className="project-two__title">
-                                                        <Link href={project.link}>{project.title}</Link>
-                                                    </h5>
-                                                </div>
-                                                <div className="project-two__arrow">
-                                                    <Link href={project.link} className="img-popup">
-                                                        <span className="icon-dabble-arrow-right"></span>
-                                                    </Link>
-                                                </div>
+                    <Swiper {...swiperOptions} className="thm-swiper__slider">
+                        {projects.map((project, index) => (
+                            <SwiperSlide key={index}>
+                                <div className="project-two__single">
+                                    <div className="project-two__img">
+                                        <img src={project.image} alt={project.title}/>
+                                        <div className="project-two__content">
+                                            <div className="project-two__title-box">
+                                                <h5 className="project-two__title">
+                                                    <Link href={project.link}>{project.title}</Link>
+                                                </h5>
+                                            </div>
+                                            <div className="project-two__arrow">
+                                                <Link href={project.link} className="img-popup">
+                                                    <span className="icon-dabble-arrow-right"></span>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
-                                </SwiperSlide>
-                            ))}
-                        </div>
+                                </div>
+                            </SwiperSlide>
+                        ))}
                     </Swiper>
                 </div>
+                <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 767px) {
+    .project-two__img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+}
+                `}</style>
             </div>
         </section>
         {/* Project Two End */}
