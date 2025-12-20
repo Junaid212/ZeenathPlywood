@@ -10,7 +10,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="MR Grade">      
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="MR Grade">      
         {/*Project Details Start*/}
         <section className="project-details">
             <div className="container">

@@ -54,8 +54,8 @@ export default function Brand() {
         <>
         {/*Brand One Start*/}
         <section className="brand-one brand-two">
-            <div className="container">
-                <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
+            <div className="container" >
+                <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container" >
                     <div className="swiper-wrapper">
                         <SwiperSlide>
                         <div className="swiper-slide">

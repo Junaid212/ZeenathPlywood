@@ -11,7 +11,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Wardrobe Handles">      
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Wardrobe Handles">      
         {/*Project Details Start*/}
         <section className="project-details" style={{paddingBottom:'250px'}}>
             <div className="container">
@@ -60,7 +60,7 @@ export default function Home() {
 
 @media (max-width: 768px) {
     .project-details__img{
-    margin-top: -60px;
+    margin-top: -80px;
     }
     .project-details__information{
     // margin-top: 40px !important;

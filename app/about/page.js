@@ -231,6 +231,7 @@ export default function About() {
             </div>
         </section> */}
         {/*Contact Two End */}
+       
 
         {/* Success One Start */}
         <section className="success-one" style={{marginTop:'150px'}}>
@@ -252,7 +253,7 @@ export default function About() {
                         </li>
                         <li>
                             <div className="success-one__counter-count count-box">
-                                <h3>250</h3>
+                                <h3>1000</h3>
                                 <span className="success-one__counter-percent">+</span>
                             </div>
                             <p className="success-one__counter-text">Happy Clients</p>
@@ -260,6 +261,29 @@ export default function About() {
                     </ul>
                 </div>
             </div>
+             <style>{`
+        
+        @media(max-width:768px){
+            .about-seven{
+            margin-top: -60px !important;
+            }
+            .success-one__img{
+            margin-top: -150px !important;
+            }
+            
+            .success-one{
+            margin-top: 0px !important;
+            }
+            .section-title__tagline-box{
+            margin-top: 150px !important;
+            }
+            .faq-one__right{
+            margin-bottom: -50px !important;
+            }
+            
+        }
+        
+        `}</style>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-lg-6">
@@ -267,6 +291,7 @@ export default function About() {
                             <div className="section-title text-left">
                                 <div className="section-title__tagline-box" style={{marginTop:'70px'}}>
                                     <span className="section-title__tagline">Best Services</span>
+                                    
                                 </div>
                                 <h2 className="section-title__title"> Committed To Your Success</h2>
                             </div>
@@ -368,9 +393,9 @@ export default function About() {
             </div>
         </section>
         {/*FAQ One End*/}
-        <Team />
+        {/* <Team /> */}
         {/*CTA One Start*/}
-        <section className="cta-one">
+        <section className="cta-one hide-mobile">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">

@@ -11,7 +11,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Seamless Louver Panels">      
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Seamless Louver Panels">      
         {/*Project Details Start*/}
         <section className="project-details" style={{paddingBottom:'300px'}}>
             <div className="container">
@@ -62,6 +62,23 @@ export default function Home() {
                     </p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -80px;
+    }
+    .project-details__information{
+    margin-top: 140px !important;
+    }
+    .project-details__content{
+    margin-top: -1140px !important;
+    margin-bottom: 750px !important;
+    }
+}
+                `}</style>
         </section>
         <Project5 />
         </Layout>

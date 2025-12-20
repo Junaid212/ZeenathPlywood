@@ -10,7 +10,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Rattan Cane Rolls">      
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Rattan Cane Rolls">      
         
         {/*Project Details Start*/}
         <section className="project-details" style={{paddingBottom:'300px'}}>
@@ -69,7 +69,23 @@ export default function Home() {
                     </p>
 
                 </div>
+            <style>{`
+                /* Add to your CSS file */
 
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -80px;
+    }
+    .project-details__information{
+    margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -870px !important;
+    margin-bottom: 600px !important;
+    }
+}
+                `}</style>
             </div>
         </section>
 

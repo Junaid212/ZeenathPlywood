@@ -9,7 +9,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
 return (
     <>
-    <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Mirror Engraved Panels">      
+    <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Mirror Engraved Panels">      
     
     {/*Project Details Start*/}
     <section className="project-details" style={{paddingBottom:'300px'}}>
@@ -62,7 +62,23 @@ return (
                     boutiques, restaurants, and premium commercial interiors.
                 </p>
             </div>
+            <style>{`
+                /* Add to your CSS file */
 
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -80px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -910px !important;
+    margin-bottom: 610px !important;
+    }
+}
+                `}</style>
         </div>
     </section>
 

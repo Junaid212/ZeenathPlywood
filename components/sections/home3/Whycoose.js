@@ -6,7 +6,7 @@ export default function Whycoose() {
 
 
         {/*Why Choose Three Start */}
-        <section className="why-choose-three">
+        <section className="why-choose-three" style={{marginBottom:'50px'}}>
             <div className="why-choose-three__bg"
                 style={{ backgroundImage: 'url(assets/images/backgrounds/14.png' }} ></div>
             <div className="container">

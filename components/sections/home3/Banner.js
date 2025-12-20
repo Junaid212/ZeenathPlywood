@@ -30,7 +30,7 @@ const swiperOptions = {
 // Slide data with separate images for desktop and mobile
 const slides = [
     {
-        desktopBg: 'assets/images/backgrounds/banner1.webp',
+        desktopBg: 'assets/images/backgrounds/06.jpg',
         mobileBg: 'assets/images/backgrounds/1.png', // Add your mobile image path
     },
     {

@@ -6,7 +6,7 @@ export default function Footer3() {
        {/*Site Footer Two Start*/}
        <footer className="site-footer-three">
             <div className="site-footer-three__shape-1 float-bob-x">
-                <img src="assets/images/shapes/site-footer-three-shape-1.png" alt=""/>
+                {/* <img src="assets/images/shapes/199.webp" alt=""/> */}
             </div>
             <div className="site-footer-three__top">
                 <div className="container">

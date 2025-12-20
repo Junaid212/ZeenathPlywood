@@ -9,7 +9,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="BWP Grade">      
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="BWP Grade">      
         {/*Project Details Start*/}
         <section className="project-details" style={{paddingBottom:'400px'}}>
             <div className="container">

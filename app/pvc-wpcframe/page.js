@@ -9,7 +9,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="PVC/WPC Frame">      
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="PVC/WPC Frame">      
         {/*Project Details Start*/}
         <section className="project-details" style={{paddingBottom:'230px'}}>
             <div className="container">

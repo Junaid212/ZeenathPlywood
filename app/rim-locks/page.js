@@ -4,13 +4,14 @@ import ModalVideo from 'react-modal-video'
 import { useState } from 'react'
 import Project from "@/components/sections/home2/Project"
 import Project2 from "@/components/sections/home2/Project2"
+import Project4 from "@/components/sections/home2/Project4"
 
 export default function Home() {
 
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Rim Locks ">      
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Rim Locks ">      
         {/*Project Details Start*/}
         <section className="project-details" style={{paddingBottom:'300px'}}>
             <div className="container">
@@ -56,8 +57,25 @@ export default function Home() {
                        commercial spaces.</p>
                 </div>
             </div>
+            <style>{`
+                /* Add to your CSS file */
+
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -80px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -1000px !important;
+    margin-bottom: 690px !important;
+    }
+}
+                `}</style>
         </section>
-        <Project2 />
+        <Project4 />
         </Layout>
         </>
     )

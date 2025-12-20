@@ -43,13 +43,11 @@ export default function Counter() {
                         </li>
                         <li>
                             <div className="counter-three__big-count count-box">
-                            <CounterUp end={1} />
-                                <span>K</span>
+                            <CounterUp end={1000} />
                                 <span>+</span>
                             </div>
                             <div className="counter-three__count count-box">
-                            <CounterUp end={1} />
-                                <span>K</span>
+                            <CounterUp end={1000} />
                                 <span>+</span>
                             </div>
                             <p className="counter-three__text">Happy <br/>Clients</p>

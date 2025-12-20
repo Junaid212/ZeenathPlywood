@@ -12,7 +12,8 @@ export default function Header5({ scroll, handlePopup, handleMobileMenu }) {
                         <div className="main-menu-five__wrapper-inner">
                             <div className="main-menu-five__left">
                                 <div className="main-menu-five__logo">
-                                    <Link href="/"><img src="assets/images/resources/zeenath-logo.png" alt=""/></Link>
+                                    <Link href="/"><img src="assets/images/shapes/zee-logo.webp" alt="" style={{height:'75px'}}/></Link>
+                                    
                                 </div>
                             </div>
                             <div className="main-menu-five__main-menu-box">
@@ -23,7 +24,7 @@ export default function Header5({ scroll, handlePopup, handleMobileMenu }) {
                                 {/* <div className="main-menu-five__search-box">
                                     <Link href="#" className="main-menu-five__search search-toggler icon-search" onClick={handlePopup}></Link>
                                 </div> */}
-                                <div className="main-menu-five__btn-box">
+                                <div className="main-menu-five__btn-box hide-mobile ">
                                     <Link href="contact" className="main-menu-five__btn thm-btn">Get a quote<span
                                             className="icon-plus"></span></Link>
                                 </div>
@@ -42,9 +43,10 @@ export default function Header5({ scroll, handlePopup, handleMobileMenu }) {
                             <div className="main-menu-five__wrapper-inner">
                                 <div className="main-menu-five__left">
                                     <div className="main-menu-five__logo">
-                                        <Link href="/"><img src="assets/images/resources/zeenath-logo.png" alt=""/></Link>
+                                        <Link href="/"><img src="assets/images/shapes/zee-logo.webp" alt="" style={{height:'65px'}}/></Link>
                                     </div>
                                 </div>
+                               
                                 <div className="main-menu-five__main-menu-box">
                                     <Link href="#" className="mobile-nav__toggler" onClick={handleMobileMenu}><i className="fa fa-bars"></i></Link>
                                     <Menu/>
@@ -53,7 +55,7 @@ export default function Header5({ scroll, handlePopup, handleMobileMenu }) {
                                     {/* <div className="main-menu-five__search-box">
                                         <Link href="#" className="main-menu-five__search search-toggler icon-search"></Link>
                                     </div> */}
-                                    <div className="main-menu-five__btn-box">
+                                    <div className="main-menu-five__btn-box hide-mobile">
                                         <Link href="contact" className="main-menu-five__btn thm-btn">Get a quote<span
                                                 className="icon-plus"></span></Link>
                                     </div>

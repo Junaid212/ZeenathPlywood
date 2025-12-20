@@ -9,7 +9,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
 return (
     <>
-    <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Clayneer">      
+    <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Clayneer">      
     
     {/*Project Details Start*/}
     <section className="project-details" style={{paddingBottom:'300px'}}>
@@ -63,7 +63,23 @@ return (
                     in homes and commercial spaces.
                 </p>
             </div>
+                    <style>{`
+                /* Add to your CSS file */
 
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -80px;
+    }
+    .project-details__information{
+    margin-top: 100px !important;
+    }
+    .project-details__content{
+    margin-top: -940px !important;
+    margin-bottom: 630px !important;
+    }
+}
+                `}</style>
         </div>
     </section>
 

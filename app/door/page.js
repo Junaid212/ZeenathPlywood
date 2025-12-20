@@ -9,7 +9,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Doors">      
+        <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Doors">      
         {/*Project Details Start*/}
         <section className="project-details">
             <div className="container">
@@ -67,7 +67,7 @@ export default function Home() {
             margin-bottom: 780px;
             }
             .project-details__img{
-            margin-top: -60px;
+            margin-top: -80px;
             }
             #project-details{
             margin-top: 10px !important;

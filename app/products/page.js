@@ -90,10 +90,21 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                    <style>{`
+        
+        @media(max-width:768px){
+            .services-page{
+            margin-bottom: -80px !important;
+            margin-top: -50px !important;
+            }
+            
+        }
+        
+        `}</style>
                 </section>
 
                 {/* Rest of your components remain the same */}
-                <section className="cta-one">
+                <section className="cta-one hide-mobile">
                     <div className="container">
                         <div className="cta-one__inner">
                             <div className="cta-one__shape-1">

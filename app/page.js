@@ -37,7 +37,7 @@ export default function Home() {
                 {/* <Testimonial /> */}
                 {/* <About2 /> */}
                 {/* <Team /> */}
-                <Brand />
+                {/* <Brand /> */}
                 <Video />
                 {/* <Blog /> */}
                 <Cta />

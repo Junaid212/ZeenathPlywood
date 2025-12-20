@@ -9,7 +9,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
 return (
     <>
-    <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="MDF Grill Board">      
+    <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="MDF Grill Board">      
     
     {/*Project Details Start*/}
     <section className="project-details" style={{paddingBottom:'250px'}}>
@@ -59,7 +59,23 @@ return (
                     decorative touch to interior partitions, wall accents, ceilings, and furniture<br/> elements.
                 </p>
             </div>
+                <style>{`
+                /* Add to your CSS file */
 
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -80px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -880px !important;
+    margin-bottom: 650px !important;
+    }
+}
+                `}</style>
         </div>
     </section>
 

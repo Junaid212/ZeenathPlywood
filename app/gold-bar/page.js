@@ -3,12 +3,13 @@ import Layout from "@/components/layout/Layout"
 import ModalVideo from 'react-modal-video'
 import { useState } from 'react'
 import Project2 from "@/components/sections/home2/Project2"
+import Project5 from "@/components/sections/home2/Project5"
 
 export default function Home() {
 const [isOpen, setOpen] = useState(false)
 return (
     <>
-    <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Gold Bar">      
+    <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Gold Bar">      
     
     {/*Project Details Start*/}
     <section className="project-details" style={{paddingBottom:'250px'}}>
@@ -58,11 +59,27 @@ return (
                     TV units, reception areas, wardrobes, and premium<br/> commercial interiors.
                 </p>
             </div>
+            <style>{`
+                /* Add to your CSS file */
 
+
+@media (max-width: 768px) {
+    .project-details__img{
+    margin-top: -80px;
+    }
+    .project-details__information{
+    // margin-top: 40px !important;
+    }
+    .project-details__content{
+    margin-top: -870px !important;
+    margin-bottom: 650px !important;
+    }
+}
+                `}</style>
         </div>
     </section>
 
-    <Project2 />
+    <Project5 />
 
     </Layout>
     </>

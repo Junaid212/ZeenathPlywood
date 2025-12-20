@@ -16,7 +16,7 @@ export default function Menu() {
                         {/* Plywood Submenu */}
                         <li className="dropdown">
                             <Link href="/plywood">Plywood</Link>
-                            <ul>
+                            {/* <ul>
                                 <li><Link href="/plywood/is-303-mr-grade">IS 303 - MR Grade</Link></li>
                                 <li><Link href="/plywood/is-710-marine-grade">IS 710 - MARINE Grade</Link></li>
                                 <li><Link href="/plywood/is-10701-bwp-grade">IS 10701 - BWP Grade</Link></li>
@@ -30,13 +30,13 @@ export default function Menu() {
                                 <li><Link href="/plywood/pvc-wpc-frame">PVC / WPC / WPC FRAME</Link></li>
                                 <li><Link href="/plywood/door">DOOR</Link></li>
                                 <li><Link href="/plywood/finger-joint">FINGER JOINT</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
 
                         {/* Laminates Submenu */}
                         <li className="dropdown">
                             <Link href="/laminates">Laminates</Link>
-                            <ul>
+                            {/* <ul>
                                 <li><Link href="/laminates/acrylic-sheets">Acrylic sheets</Link></li>
                                 <li><Link href="/laminates/pvc">Pvc</Link></li>
                                 <li><Link href="/laminates/1-25mm-laminate">1.25mm Laminate</Link></li>
@@ -44,13 +44,13 @@ export default function Menu() {
                                 <li><Link href="/laminates/0-8mm-laminate">0.8mm Laminate</Link></li>
                                 <li><Link href="/laminates/liner-laminate">Liner Laminate</Link></li>
                                 <li><Link href="/laminates/hylam">Hylam</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
 
                         {/* Veneer Submenu */}
                         <li className="dropdown">
                             <Link href="/veneer">Veneer</Link>
-                            <ul>
+                            {/* <ul>
                                 <li className="dropdown">
                                     <Link href="/veneer/wood-veneer">Wood veneer</Link>
                                     <ul>
@@ -59,13 +59,13 @@ export default function Menu() {
                                     </ul>
                                 </li>
                                 <li><Link href="/veneer/stone-veneer">Stone veneer</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
 
                         {/* Hardware Submenu */}
                         <li className="dropdown">
                             <Link href="/hardware">Hardware</Link>
-                            <ul>
+                            {/* <ul>
                                 <li className="dropdown">
                                     <Link href="/hardware/furniture-fittings">Furniture Fittings</Link>
                                     <ul>
@@ -104,13 +104,13 @@ export default function Menu() {
                                         <li><Link href="/hardware/safety-hardware/safe-locks">Safe locks</Link></li>
                                     </ul>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </li>
 
                         {/* Decorative Panels Submenu */}
                         <li className="dropdown">
                             <Link href="/decorative-panels">Decorative Panels</Link>
-                            <ul>
+                            {/* <ul>
                                 <li><Link href="/decorative-panels/seamless-louver">Seamless Louver panels</Link></li>
                                 <li><Link href="/decorative-panels/charcoal-sheets">Charcoal sheets</Link></li>
                                 <li><Link href="/decorative-panels/mosaic-panels">Mosaic panels</Link></li>
@@ -129,7 +129,7 @@ export default function Menu() {
                                 <li><Link href="/decorative-panels/mdf-grill">MDF Grill board</Link></li>
                                 <li><Link href="/decorative-panels/mdf-wave">MDF wave board</Link></li>
                                 <li><Link href="/decorative-panels/artificial-gardening">Artificial Gardening</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
                     </ul>
                 </li>

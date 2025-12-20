@@ -18,7 +18,7 @@ export default function Services2() {
                         </div>
                         <h2 className="section-title__title">Why Choose Us</h2>
                     </div>
-                    <div className="services-six__btn-box">
+                    <div className="services-six__btn-box ">
                         <Link href="services" className="services-six__btn thm-btn">Read more<span
                                 className="icon-dabble-arrow-right"></span></Link>
                     </div>
